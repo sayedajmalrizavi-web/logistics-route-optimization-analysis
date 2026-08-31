@@ -1,2 +1,1 @@
-# logistics-route-optimization-analysis
-Python-based logistics data analysis project for route optimization, delivery performance, KPI analysis, regression, and route clustering. Developed as part of the YuvaIntern Logistics Data Analyst Internship – Week 1.
+Interactive notebook can be added here; reusable analysis is implemented in src/.
