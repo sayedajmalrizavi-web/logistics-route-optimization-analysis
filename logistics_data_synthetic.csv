@@ -1,0 +1,1001 @@
+order_id,warehouse,destination,distance_km,vehicle_type,package_weight_kg,traffic_level,weather,number_of_stops,expected_time_hr,delivery_time_hr,transport_cost,delivery_delay_hr,delivery_status
+10001,Udaipur,Udaipur,450.5,Truck,5.3,High,Clear,2,10.84,13.2,7686.44,2.36,Delayed
+10002,Kota,Udaipur,341.1,Van,7.4,Medium,Clear,6,8.19,9.05,4131.65,0.86,Delayed
+10003,Ahmedabad,Udaipur,272.3,Van,7.6,High,Rain,5,6.57,8.36,3287.6,1.79,Delayed
+10004,Kota,Udaipur,196.4,Mini Truck,4.3,High,Rain,1,4.54,7.21,2745.26,2.67,Delayed
+10005,Kota,Delhi,211.4,Van,7.6,Low,Rain,6,5.48,6.88,2524.49,1.4,Delayed
+10006,Delhi,Delhi,390.4,Van,22.5,Medium,Hot,8,9.57,10.75,4710.33,1.18,Delayed
+10007,Ahmedabad,Jodhpur,119.2,Truck,34.8,Medium,Clear,5,3.67,5.02,2180.95,1.35,Delayed
+10008,Ahmedabad,Jaipur,271.7,Truck,3.2,Low,Clear,6,7.4,7.34,4675.86,-0.06,On Time
+10009,Ahmedabad,Ajmer,346.1,Mini Truck,27.6,Medium,Cloudy,3,8.23,9.28,4802.4,1.05,Delayed
+10010,Kota,Udaipur,112.9,Van,14.1,Medium,Rain,3,2.89,4.31,1418.55,1.42,Delayed
+10011,Udaipur,Jodhpur,93.6,Mini Truck,5.5,Low,Hot,8,3.52,4.89,1515.34,1.37,Delayed
+10012,Ahmedabad,Jaipur,198.5,Truck,11.7,Medium,Clear,3,5.16,6.24,3428.43,1.08,Delayed
+10013,Kota,Ajmer,67.5,Mini Truck,21.7,Medium,Clear,3,2.04,2.24,1062.14,0.2,On Time
+10014,Delhi,Bhilwara,262.8,Truck,16.2,Low,Clear,2,6.47,7.3,4496.43,0.83,Delayed
+10015,Udaipur,Kota,320.5,Mini Truck,3.9,Medium,Rain,3,7.66,8.83,4434.73,1.17,Delayed
+10016,Delhi,Delhi,103.4,Mini Truck,15.3,Low,Cloudy,7,3.56,3.67,1634.3,0.11,On Time
+10017,Udaipur,Bhilwara,352.7,Van,25.5,Medium,Clear,3,7.89,8.8,4150.9,0.91,Delayed
+10018,Kota,Ajmer,420.2,Mini Truck,23.0,Low,Clear,7,10.6,10.85,5879.71,0.25,On Time
+10019,Jaipur,Bhilwara,277.8,Van,12.1,High,Cloudy,2,6.15,7.97,3231.15,1.82,Delayed
+10020,Udaipur,Kota,435.0,Van,15.8,Medium,Rain,3,9.6,10.59,5158.05,0.99,Delayed
+10021,Delhi,Jodhpur,192.6,Van,12.6,Low,Clear,8,5.45,5.67,2433.82,0.22,On Time
+10022,Kota,Ajmer,169.8,Van,22.1,Medium,Rain,5,4.44,6.44,2137.41,2.0,Delayed
+10023,Udaipur,Bhilwara,214.4,Mini Truck,23.0,Medium,Cloudy,8,6.2,7.48,3216.45,1.28,Delayed
+10024,Jaipur,Delhi,128.1,Truck,2.5,Medium,Rain,5,3.88,4.79,2227.36,0.91,Delayed
+10025,Jaipur,Delhi,166.2,Truck,25.6,Medium,Rain,4,4.59,5.79,2983.75,1.2,Delayed
+10026,Ahmedabad,Jaipur,231.1,Truck,21.2,Medium,Clear,5,6.27,6.5,4029.49,0.23,On Time
+10027,Ahmedabad,Bhilwara,247.6,Mini Truck,10.0,Low,Clear,1,5.68,5.83,3406.55,0.15,On Time
+10028,Delhi,Udaipur,290.7,Van,30.3,Low,Cloudy,1,6.24,5.64,3455.15,-0.6,On Time
+10029,Udaipur,Bhilwara,67.3,Truck,12.6,Medium,Clear,1,1.75,1.94,1191.2,0.19,On Time
+10030,Udaipur,Jodhpur,600.0,Mini Truck,8.6,Medium,Rain,2,13.69,14.89,8247.27,1.2,Delayed
+10031,Ahmedabad,Ajmer,135.7,Van,10.1,Medium,Cloudy,8,4.27,4.26,1788.94,-0.01,On Time
+10032,Udaipur,Ajmer,319.7,Truck,16.5,High,Rain,5,8.33,10.62,5523.54,2.29,Delayed
+10033,Udaipur,Jodhpur,265.8,Van,11.7,Medium,Clear,8,6.98,6.73,3267.09,-0.25,On Time
+10034,Jaipur,Bhilwara,160.4,Truck,9.9,Medium,Clear,7,4.99,5.91,2857.91,0.92,Delayed
+10035,Ahmedabad,Jodhpur,304.8,Truck,8.8,Low,Cloudy,1,7.27,7.19,5172.1,-0.08,On Time
+10036,Kota,Kota,137.4,Truck,23.6,Low,Clear,4,3.92,3.64,2405.48,-0.28,On Time
+10037,Ahmedabad,Jodhpur,226.2,Van,22.4,High,Cloudy,2,5.07,6.46,2672.76,1.39,Delayed
+10038,Kota,Delhi,589.4,Mini Truck,3.1,Medium,Rain,4,13.82,15.29,8127.89,1.47,Delayed
+10039,Jaipur,Jodhpur,179.9,Van,10.6,Medium,Clear,5,4.65,5.62,2232.36,0.97,Delayed
+10040,Delhi,Ajmer,238.4,Truck,25.2,Low,Rain,3,6.08,7.47,4206.6,1.39,Delayed
+10041,Udaipur,Delhi,125.0,Van,15.1,Medium,Clear,4,3.32,4.48,1562.41,1.16,Delayed
+10042,Jaipur,Ajmer,323.5,Mini Truck,26.3,High,Clear,3,7.73,10.23,4482.8,2.5,Delayed
+10043,Udaipur,Jaipur,149.6,Van,31.8,Low,Hot,2,3.48,4.08,1820.54,0.6,On Time
+10044,Delhi,Udaipur,268.6,Mini Truck,31.6,High,Hot,4,6.69,8.55,3853.29,1.86,Delayed
+10045,Delhi,Ajmer,380.1,Mini Truck,28.4,Medium,Clear,4,9.17,9.66,5310.57,0.49,On Time
+10046,Jaipur,Delhi,200.7,Van,13.2,Medium,Hot,6,5.26,6.07,2436.06,0.81,Delayed
+10047,Delhi,Jaipur,307.4,Truck,11.1,Medium,Clear,2,7.51,8.45,5257.84,0.94,Delayed
+10048,Kota,Ajmer,276.8,Mini Truck,14.3,High,Clear,2,6.51,7.56,3872.91,1.05,Delayed
+10049,Delhi,Kota,387.6,Van,11.8,Low,Clear,1,8.26,8.36,4475.56,0.1,On Time
+10050,Udaipur,Jodhpur,308.2,Mini Truck,29.0,Low,Hot,5,7.75,8.04,4355.21,0.29,On Time
+10051,Udaipur,Udaipur,433.2,Truck,22.5,High,Clear,4,10.79,11.96,7463.32,1.17,Delayed
+10052,Udaipur,Ajmer,199.7,Van,16.6,Medium,Cloudy,8,5.6,5.93,2552.22,0.33,On Time
+10053,Udaipur,Jaipur,110.8,Van,6.0,Low,Cloudy,4,3.03,4.27,1340.23,1.24,Delayed
+10054,Kota,Kota,88.7,Van,22.2,Medium,Cloudy,7,3.11,3.28,1162.15,0.17,On Time
+10055,Ahmedabad,Bhilwara,93.7,Truck,31.7,Medium,Clear,2,2.54,3.21,1703.64,0.67,On Time
+10056,Jaipur,Jaipur,195.1,Mini Truck,9.8,Medium,Clear,8,5.78,7.03,2852.27,1.25,Delayed
+10057,Udaipur,Jodhpur,251.5,Van,29.6,Low,Clear,2,5.6,5.84,3026.23,0.24,On Time
+10058,Delhi,Jaipur,155.9,Mini Truck,21.1,Medium,Cloudy,5,4.36,4.95,2310.89,0.59,On Time
+10059,Udaipur,Kota,61.7,Mini Truck,58.0,Low,Cloudy,2,1.73,1.29,991.94,-0.44,On Time
+10060,Delhi,Jaipur,157.5,Truck,14.1,Medium,Cloudy,3,4.2,5.06,2730.71,0.86,Delayed
+10061,Delhi,Kota,179.4,Van,10.3,High,Cloudy,3,4.28,4.69,2131.32,0.41,On Time
+10062,Udaipur,Ajmer,227.6,Mini Truck,26.9,Medium,Clear,6,6.14,6.92,3273.09,0.78,Delayed
+10063,Kota,Kota,464.4,Van,9.1,Low,Rain,3,10.22,11.04,5471.43,0.82,Delayed
+10064,Delhi,Kota,79.5,Van,16.4,Low,Cloudy,3,2.2,2.78,1028.63,0.58,On Time
+10065,Delhi,Udaipur,325.4,Truck,19.5,Medium,Clear,5,8.47,8.66,5568.82,0.19,On Time
+10066,Udaipur,Kota,309.1,Van,26.3,Medium,Clear,4,7.16,7.71,3746.6,0.55,On Time
+10067,Delhi,Kota,200.6,Van,32.2,Medium,Rain,3,4.72,6.42,2447.96,1.7,Delayed
+10068,Delhi,Bhilwara,282.0,Mini Truck,49.5,Medium,Rain,8,7.71,9.3,4171.09,1.59,Delayed
+10069,Udaipur,Ajmer,207.7,Truck,3.9,Medium,Clear,6,5.91,6.01,3595.2,0.1,On Time
+10070,Udaipur,Jodhpur,305.7,Van,47.4,Low,Cloudy,2,6.73,6.54,3656.2,-0.19,On Time
+10071,Jaipur,Udaipur,141.2,Mini Truck,5.5,Low,Clear,3,3.68,4.31,2015.39,0.63,On Time
+10072,Kota,Bhilwara,132.0,Truck,7.4,Low,Clear,6,4.15,4.27,2328.98,0.12,On Time
+10073,Kota,Delhi,75.3,Truck,24.3,Low,Cloudy,5,2.65,2.0,1423.74,-0.65,On Time
+10074,Delhi,Ajmer,282.6,Mini Truck,17.4,Medium,Cloudy,7,7.54,8.74,4010.9,1.2,Delayed
+10075,Kota,Ajmer,164.8,Mini Truck,6.8,High,Rain,7,4.92,6.5,2406.14,1.58,Delayed
+10076,Delhi,Delhi,91.8,Mini Truck,23.1,Medium,Clear,7,3.3,3.86,1461.4,0.56,On Time
+10077,Jaipur,Jodhpur,133.2,Mini Truck,14.0,Low,Clear,2,3.32,3.57,1896.31,0.25,On Time
+10078,Udaipur,Kota,305.4,Mini Truck,4.1,Low,Clear,6,7.87,8.42,4297.78,0.55,On Time
+10079,Udaipur,Bhilwara,250.3,Van,33.0,Low,Clear,3,5.75,4.7,3047.83,-1.05,On Time
+10080,Udaipur,Jaipur,135.8,Van,8.6,Low,Clear,4,3.55,3.87,1682.3,0.32,On Time
+10081,Kota,Udaipur,454.6,Truck,6.9,Medium,Clear,2,10.93,12.02,7694.71,1.09,Delayed
+10082,Jaipur,Jaipur,220.9,Van,16.4,Medium,Clear,2,4.96,5.41,2612.85,0.45,On Time
+10083,Kota,Delhi,293.6,Van,7.9,Low,Clear,7,7.38,7.42,3601.43,0.04,On Time
+10084,Kota,Ajmer,247.5,Van,23.0,Low,Cloudy,4,5.88,4.61,3015.35,-1.27,On Time
+10085,Jaipur,Jodhpur,197.2,Mini Truck,13.8,Low,Clear,7,5.64,4.4,2842.64,-1.24,On Time
+10086,Jaipur,Ajmer,283.3,Truck,19.7,Low,Clear,2,6.95,7.45,4873.43,0.5,On Time
+10087,Jaipur,Udaipur,406.4,Truck,9.7,Medium,Cloudy,3,9.99,10.55,6947.44,0.56,On Time
+10088,Jaipur,Ajmer,195.4,Truck,17.2,Low,Clear,7,5.8,5.64,3475.15,-0.16,On Time
+10089,Udaipur,Ajmer,336.2,Truck,8.2,Medium,Cloudy,7,9.08,9.99,5821.31,0.91,Delayed
+10090,Ahmedabad,Udaipur,155.9,Van,12.6,Medium,Clear,8,4.69,5.23,1934.82,0.54,On Time
+10091,Ahmedabad,Bhilwara,545.9,Van,15.5,High,Clear,7,12.63,13.92,6466.82,1.29,Delayed
+10092,Jaipur,Bhilwara,144.7,Mini Truck,3.7,High,Clear,2,3.58,5.26,2057.56,1.68,Delayed
+10093,Ahmedabad,Udaipur,600.0,Truck,30.1,Medium,Clear,3,14.49,14.52,10190.85,0.03,On Time
+10094,Ahmedabad,Jodhpur,113.5,Van,4.9,Low,Cloudy,4,3.08,3.7,1405.09,0.62,On Time
+10095,Jaipur,Delhi,189.7,Van,7.3,Medium,Hot,1,4.13,5.03,2200.5,0.9,Delayed
+10096,Ahmedabad,Ajmer,290.8,Mini Truck,8.4,Medium,Clear,4,7.18,7.43,4085.66,0.25,On Time
+10097,Kota,Jodhpur,420.6,Mini Truck,22.3,Low,Clear,3,9.89,9.38,5874.49,-0.51,On Time
+10098,Delhi,Ajmer,502.0,Mini Truck,10.5,Medium,Cloudy,5,12.06,12.88,7002.22,0.82,Delayed
+10099,Delhi,Delhi,467.3,Van,41.2,High,Clear,7,11.0,12.36,5610.32,1.36,Delayed
+10100,Jaipur,Bhilwara,285.2,Van,42.9,Medium,Rain,4,6.66,7.46,3488.75,0.8,Delayed
+10101,Udaipur,Jodhpur,149.5,Mini Truck,22.9,Low,Clear,5,4.22,3.95,2260.81,-0.27,On Time
+10102,Jaipur,Kota,375.0,Truck,8.7,Low,Hot,5,9.62,9.56,6457.08,-0.06,On Time
+10103,Udaipur,Kota,398.0,Mini Truck,13.3,Medium,Clear,3,9.38,10.65,5533.89,1.27,Delayed
+10104,Delhi,Kota,269.4,Mini Truck,16.4,Low,Clear,3,6.53,6.59,3715.09,0.06,On Time
+10105,Jaipur,Bhilwara,171.5,Mini Truck,29.7,Medium,Rain,8,5.25,7.46,2579.53,2.21,Delayed
+10106,Kota,Bhilwara,123.2,Mini Truck,12.8,Medium,Cloudy,7,4.0,4.48,1924.02,0.48,On Time
+10107,Ahmedabad,Delhi,154.9,Van,8.3,Low,Clear,1,3.41,3.28,1877.17,-0.13,On Time
+10108,Udaipur,Ajmer,150.7,Truck,6.2,High,Cloudy,6,4.58,6.35,2694.79,1.77,Delayed
+10109,Ahmedabad,Delhi,234.1,Mini Truck,30.9,Medium,Cloudy,2,5.56,6.63,3288.45,1.07,Delayed
+10110,Ahmedabad,Delhi,384.7,Truck,23.0,Low,Clear,4,9.67,9.99,6607.99,0.32,On Time
+10111,Jaipur,Bhilwara,243.6,Truck,12.0,Medium,Cloudy,3,6.21,6.61,4214.35,0.4,On Time
+10112,Ahmedabad,Kota,118.0,Truck,12.7,Medium,Clear,4,3.46,3.77,2133.8,0.31,On Time
+10113,Kota,Jaipur,327.8,Mini Truck,3.6,Medium,Rain,6,8.36,9.7,4626.05,1.34,Delayed
+10114,Ahmedabad,Ajmer,575.7,Van,7.1,High,Hot,6,13.07,15.54,6828.3,2.47,Delayed
+10115,Jaipur,Bhilwara,242.0,Mini Truck,50.5,Medium,Clear,7,6.64,6.89,3576.45,0.25,On Time
+10116,Kota,Kota,157.7,Truck,17.5,High,Clear,5,4.57,5.83,2797.76,1.26,Delayed
+10117,Delhi,Jodhpur,131.5,Truck,4.6,Medium,Clear,7,4.32,5.35,2358.18,1.03,Delayed
+10118,Ahmedabad,Jaipur,317.4,Van,5.3,Medium,Clear,2,6.97,7.97,3737.55,1.0,Delayed
+10119,Jaipur,Jaipur,493.4,Mini Truck,11.6,High,Hot,1,11.14,13.19,6819.76,2.05,Delayed
+10120,Delhi,Bhilwara,194.7,Truck,8.1,Medium,Clear,4,5.25,5.99,3403.2,0.74,On Time
+10121,Delhi,Udaipur,171.5,Van,15.1,Low,Clear,2,3.93,3.45,2018.43,-0.48,On Time
+10122,Udaipur,Ajmer,239.1,Truck,21.9,Medium,Rain,8,7.0,8.19,4204.68,1.19,Delayed
+10123,Kota,Jaipur,341.6,Van,7.5,Medium,Rain,1,7.3,9.31,4024.11,2.01,Delayed
+10124,Ahmedabad,Bhilwara,151.6,Van,12.2,Low,Clear,4,3.88,4.23,1874.44,0.35,On Time
+10125,Jaipur,Bhilwara,258.9,Mini Truck,6.0,High,Cloudy,2,6.11,7.11,3599.93,1.0,Delayed
+10126,Udaipur,Kota,298.3,Truck,42.5,Low,Cloudy,3,7.48,7.97,5186.2,0.49,On Time
+10127,Kota,Jodhpur,310.1,Mini Truck,21.9,Low,Hot,4,7.61,8.5,4434.73,0.89,Delayed
+10128,Udaipur,Udaipur,125.4,Truck,22.6,High,Cloudy,2,3.28,4.9,2189.34,1.62,Delayed
+10129,Kota,Ajmer,139.6,Mini Truck,20.8,Medium,Cloudy,6,4.18,5.17,2126.54,0.99,Delayed
+10130,Kota,Delhi,240.9,Truck,8.0,Low,Clear,1,5.78,6.24,4096.5,0.46,On Time
+10131,Ahmedabad,Jodhpur,329.9,Mini Truck,17.7,Medium,Clear,2,7.69,8.08,4533.6,0.39,On Time
+10132,Kota,Jodhpur,600.0,Van,17.2,Medium,Cloudy,3,13.04,14.89,7008.41,1.85,Delayed
+10133,Udaipur,Kota,121.0,Truck,18.0,Low,Hot,7,4.07,4.92,2208.75,0.85,Delayed
+10134,Kota,Jaipur,262.4,Truck,9.1,High,Rain,4,6.82,9.36,4556.42,2.54,Delayed
+10135,Ahmedabad,Jaipur,229.8,Van,9.5,Medium,Hot,8,6.23,7.21,2895.95,0.98,Delayed
+10136,Ahmedabad,Kota,180.9,Mini Truck,27.8,Medium,Clear,4,4.74,5.66,2636.39,0.92,Delayed
+10137,Udaipur,Bhilwara,409.5,Truck,11.7,Medium,Rain,4,10.24,11.04,6977.38,0.8,Delayed
+10138,Delhi,Jaipur,308.0,Truck,27.8,Medium,Rain,3,7.7,10.14,5275.24,2.44,Delayed
+10139,Delhi,Udaipur,312.8,Mini Truck,9.1,Low,Cloudy,1,7.13,7.74,4353.38,0.61,On Time
+10140,Kota,Ajmer,116.9,Van,8.9,Low,Clear,4,3.16,3.82,1414.6,0.66,On Time
+10141,Jaipur,Jodhpur,189.8,Mini Truck,8.6,Medium,Clear,1,4.4,5.11,2629.77,0.71,On Time
+10142,Kota,Jodhpur,236.3,Mini Truck,14.8,High,Rain,2,5.61,7.75,3387.77,2.14,Delayed
+10143,Udaipur,Udaipur,251.6,Mini Truck,28.9,Low,Clear,6,6.67,6.37,3617.51,-0.3,On Time
+10144,Udaipur,Jaipur,600.0,Truck,9.5,Medium,Hot,8,15.39,16.76,10234.29,1.37,Delayed
+10145,Udaipur,Jodhpur,195.4,Van,9.1,High,Clear,6,5.15,6.42,2348.92,1.27,Delayed
+10146,Udaipur,Delhi,52.7,Van,18.0,Low,Cloudy,1,1.28,1.3,758.03,0.02,On Time
+10147,Udaipur,Ajmer,237.9,Mini Truck,5.2,Low,Cloudy,1,5.47,5.82,3294.02,0.35,On Time
+10148,Ahmedabad,Ajmer,298.9,Truck,29.9,Low,Cloudy,6,8.03,7.83,5194.86,-0.2,On Time
+10149,Delhi,Jodhpur,236.7,Mini Truck,15.3,Medium,Clear,4,5.98,7.15,3349.06,1.17,Delayed
+10150,Udaipur,Kota,43.8,Truck,15.5,Low,Hot,5,1.92,2.21,859.84,0.29,On Time
+10151,Jaipur,Jodhpur,268.1,Truck,31.4,Medium,Cloudy,5,7.13,7.25,4624.22,0.12,On Time
+10152,Jaipur,Kota,303.7,Truck,37.5,Medium,Clear,3,7.6,8.0,5285.74,0.4,On Time
+10153,Jaipur,Jodhpur,110.5,Truck,13.6,Medium,Cloudy,8,4.01,5.4,2066.22,1.39,Delayed
+10154,Jaipur,Delhi,157.0,Van,9.0,Low,Clear,7,4.53,4.11,2013.62,-0.42,On Time
+10155,Ahmedabad,Bhilwara,222.4,Truck,11.7,Medium,Clear,6,6.25,7.35,3896.63,1.1,Delayed
+10156,Jaipur,Ajmer,168.6,Truck,8.8,Medium,Clear,6,5.0,5.75,2990.19,0.75,On Time
+10157,Udaipur,Jodhpur,183.8,Mini Truck,7.0,High,Rain,3,4.62,6.84,2513.45,2.22,Delayed
+10158,Kota,Delhi,269.4,Mini Truck,6.3,High,Clear,8,7.43,10.06,3900.2,2.63,Delayed
+10159,Jaipur,Kota,162.5,Van,12.1,Medium,Cloudy,5,4.29,4.51,1977.82,0.22,On Time
+10160,Ahmedabad,Kota,94.8,Mini Truck,22.4,Medium,Clear,2,2.47,2.84,1362.66,0.37,On Time
+10161,Ahmedabad,Ajmer,363.9,Truck,16.6,Low,Clear,4,9.18,9.17,6222.88,-0.01,On Time
+10162,Jaipur,Udaipur,127.5,Mini Truck,20.1,Low,Hot,4,3.55,4.94,1804.56,1.39,Delayed
+10163,Kota,Jodhpur,205.5,Van,18.1,Low,Cloudy,2,4.64,4.73,2440.58,0.09,On Time
+10164,Jaipur,Jaipur,174.1,Mini Truck,4.1,Medium,Hot,2,4.23,5.35,2407.48,1.12,Delayed
+10165,Ahmedabad,Kota,118.1,Mini Truck,11.0,Low,Clear,8,4.06,3.91,1801.24,-0.15,On Time
+10166,Delhi,Bhilwara,358.1,Van,15.5,Low,Clear,5,8.36,8.52,4223.71,0.16,On Time
+10167,Udaipur,Bhilwara,338.6,Van,14.3,High,Rain,3,7.59,9.77,4043.62,2.18,Delayed
+10168,Ahmedabad,Kota,185.8,Truck,10.0,Low,Cloudy,2,4.68,5.09,3203.37,0.41,On Time
+10169,Jaipur,Udaipur,228.1,Mini Truck,16.9,Low,Clear,3,5.61,5.96,3189.88,0.35,On Time
+10170,Udaipur,Udaipur,243.6,Truck,31.3,Low,Clear,8,7.11,7.0,4323.25,-0.11,On Time
+10171,Jaipur,Delhi,121.9,Mini Truck,21.2,Medium,Rain,7,3.97,4.96,1898.15,0.99,Delayed
+10172,Jaipur,Bhilwara,131.3,Mini Truck,27.7,Medium,Clear,1,3.1,3.84,1871.71,0.74,On Time
+10173,Delhi,Delhi,226.2,Truck,33.6,Medium,Cloudy,4,5.98,7.41,3925.38,1.43,Delayed
+10174,Udaipur,Bhilwara,116.6,Mini Truck,26.4,Medium,Clear,5,3.49,3.82,1762.02,0.33,On Time
+10175,Udaipur,Jodhpur,225.1,Mini Truck,31.7,Medium,Clear,4,5.72,6.57,3198.62,0.85,Delayed
+10176,Delhi,Jodhpur,59.8,Mini Truck,3.2,High,Hot,5,2.23,3.49,909.17,1.26,Delayed
+10177,Ahmedabad,Jaipur,180.3,Van,17.4,High,Clear,8,5.2,6.23,2298.45,1.03,Delayed
+10178,Jaipur,Jodhpur,267.0,Truck,7.8,High,Clear,1,6.39,8.48,4563.25,2.09,Delayed
+10179,Kota,Jaipur,256.5,Van,22.8,Medium,Rain,4,6.06,7.87,3176.11,1.81,Delayed
+10180,Jaipur,Jodhpur,405.1,Truck,25.0,Low,Clear,1,9.6,9.76,6935.37,0.16,On Time
+10181,Jaipur,Ajmer,121.7,Truck,7.9,Low,Clear,8,4.27,3.23,2237.01,-1.04,On Time
+10182,Ahmedabad,Jodhpur,219.4,Mini Truck,26.0,Low,Cloudy,5,5.78,5.63,3246.22,-0.15,On Time
+10183,Jaipur,Delhi,365.4,Truck,15.0,Medium,Clear,2,8.86,9.83,6238.26,0.97,Delayed
+10184,Delhi,Kota,265.8,Van,15.4,High,Clear,7,6.8,7.65,3226.66,0.85,Delayed
+10185,Delhi,Delhi,344.8,Van,26.0,Medium,Clear,4,7.9,8.44,4136.15,0.54,On Time
+10186,Udaipur,Kota,116.7,Van,8.6,Low,Cloudy,1,2.61,3.05,1367.53,0.44,On Time
+10187,Kota,Udaipur,237.8,Truck,25.9,Medium,Cloudy,6,6.61,6.73,4145.52,0.12,On Time
+10188,Jaipur,Delhi,203.2,Van,8.7,High,Cloudy,4,4.95,5.79,2414.74,0.84,Delayed
+10189,Jaipur,Udaipur,241.2,Truck,14.9,Medium,Clear,4,6.33,6.36,4170.77,0.03,On Time
+10190,Ahmedabad,Jaipur,146.9,Van,8.6,High,Cloudy,4,3.78,5.53,1831.73,1.75,Delayed
+10191,Delhi,Jaipur,435.0,Van,18.2,High,Hot,3,9.6,11.15,5171.32,1.55,Delayed
+10192,Kota,Ajmer,325.4,Truck,17.8,High,Clear,1,7.75,9.65,5487.87,1.9,Delayed
+10193,Udaipur,Jodhpur,408.0,Van,16.3,Medium,Cloudy,1,8.68,9.53,4762.91,0.85,Delayed
+10194,Delhi,Delhi,266.6,Mini Truck,11.1,Medium,Cloudy,4,6.64,8.29,3770.76,1.65,Delayed
+10195,Udaipur,Udaipur,155.2,Truck,24.2,Low,Rain,8,5.05,5.29,2846.76,0.24,On Time
+10196,Ahmedabad,Kota,314.0,Truck,3.4,Low,Hot,8,8.74,9.19,5483.67,0.45,On Time
+10197,Ahmedabad,Jaipur,437.4,Truck,13.5,Medium,Clear,2,10.53,10.87,7409.51,0.34,On Time
+10198,Jaipur,Jodhpur,266.5,Mini Truck,28.4,Low,Clear,4,6.64,6.91,3838.44,0.27,On Time
+10199,Kota,Jaipur,136.7,Truck,32.2,High,Clear,3,3.72,5.27,2439.69,1.55,Delayed
+10200,Udaipur,Kota,166.7,Van,17.2,Low,Clear,5,4.37,3.92,2103.19,-0.45,On Time
+10201,Delhi,Jodhpur,234.8,Van,17.2,High,Clear,3,5.43,6.86,2805.89,1.43,Delayed
+10202,Ahmedabad,Jodhpur,466.5,Van,6.8,Medium,Rain,8,11.16,12.69,5582.44,1.53,Delayed
+10203,Jaipur,Udaipur,541.2,Truck,8.1,Low,Clear,2,12.95,12.68,9099.74,-0.27,On Time
+10204,Jaipur,Udaipur,142.6,Van,3.0,High,Clear,8,4.41,6.24,1800.94,1.83,Delayed
+10205,Udaipur,Delhi,277.3,Truck,19.0,Medium,Cloudy,8,7.89,8.23,4872.98,0.34,On Time
+10206,Ahmedabad,Delhi,165.6,Van,43.1,Medium,Clear,8,4.89,6.53,2195.62,1.64,Delayed
+10207,Kota,Bhilwara,110.5,Mini Truck,31.9,Low,Hot,4,3.18,3.91,1766.73,0.73,On Time
+10208,Ahmedabad,Bhilwara,309.7,Mini Truck,6.3,Medium,Rain,8,8.32,9.98,4405.16,1.66,Delayed
+10209,Udaipur,Ajmer,248.6,Mini Truck,7.6,Low,Clear,1,5.7,6.98,3385.45,1.28,Delayed
+10210,Udaipur,Jaipur,256.9,Mini Truck,29.6,Medium,Clear,7,6.97,7.53,3791.31,0.56,On Time
+10211,Ahmedabad,Delhi,210.5,Truck,14.9,Medium,Clear,6,5.98,6.96,3741.92,0.98,Delayed
+10212,Udaipur,Udaipur,269.6,Van,5.8,Medium,Cloudy,4,6.34,7.24,3175.32,0.9,Delayed
+10213,Ahmedabad,Kota,264.4,Mini Truck,8.8,Medium,Clear,2,6.24,7.3,3690.46,1.06,Delayed
+10214,Delhi,Udaipur,351.1,Truck,1.5,Medium,Cloudy,1,8.35,9.82,5953.31,1.47,Delayed
+10215,Ahmedabad,Jaipur,146.0,Mini Truck,16.0,Low,Rain,3,3.78,4.83,2103.03,1.05,Delayed
+10216,Ahmedabad,Bhilwara,359.8,Mini Truck,34.4,High,Clear,8,9.44,11.41,5181.23,1.97,Delayed
+10217,Udaipur,Udaipur,334.1,Truck,16.5,Low,Rain,5,8.67,9.22,5740.35,0.55,On Time
+10218,Udaipur,Ajmer,272.7,Truck,18.7,Medium,Clear,5,7.24,7.85,4753.87,0.61,On Time
+10219,Jaipur,Jaipur,233.7,Van,53.6,Medium,Hot,7,6.13,7.87,2964.68,1.74,Delayed
+10220,Jaipur,Bhilwara,218.7,Van,5.9,High,Clear,4,5.28,7.05,2535.56,1.77,Delayed
+10221,Delhi,Kota,219.7,Mini Truck,34.3,Medium,Cloudy,3,5.42,6.33,3154.09,0.91,Delayed
+10222,Jaipur,Bhilwara,233.8,Mini Truck,13.8,Medium,Clear,7,6.46,6.82,3319.83,0.36,On Time
+10223,Ahmedabad,Jodhpur,97.3,Van,8.8,Medium,Rain,6,3.11,5.04,1312.41,1.93,Delayed
+10224,Udaipur,Ajmer,600.0,Van,20.0,Medium,Clear,6,13.58,13.93,7070.42,0.35,On Time
+10225,Jaipur,Jaipur,392.7,Truck,10.1,Low,Clear,7,10.39,9.91,6689.74,-0.48,On Time
+10226,Jaipur,Kota,544.0,Van,10.7,Medium,Cloudy,2,11.69,12.54,6290.95,0.85,Delayed
+10227,Delhi,Ajmer,316.5,Van,28.1,Medium,Clear,5,7.49,7.11,3831.56,-0.38,On Time
+10228,Delhi,Bhilwara,163.0,Mini Truck,30.8,High,Cloudy,3,4.16,6.03,2371.4,1.87,Delayed
+10229,Ahmedabad,Ajmer,294.5,Van,16.3,Medium,Rain,4,6.86,8.53,3479.15,1.67,Delayed
+10230,Udaipur,Jaipur,349.6,Mini Truck,47.4,Medium,Clear,8,9.21,9.75,5024.27,0.54,On Time
+10231,Delhi,Delhi,136.6,Van,11.7,Low,Clear,1,3.03,2.91,1627.53,-0.12,On Time
+10232,Jaipur,Ajmer,432.9,Truck,58.7,High,Clear,4,10.79,12.24,7535.63,1.45,Delayed
+10233,Udaipur,Jodhpur,182.6,Van,37.7,High,Cloudy,4,4.52,5.76,2245.16,1.24,Delayed
+10234,Udaipur,Ajmer,331.8,Van,36.7,Low,Clear,3,7.45,7.53,3999.64,0.08,On Time
+10235,Jaipur,Bhilwara,464.6,Van,25.3,Low,Clear,5,10.58,10.47,5476.0,-0.11,On Time
+10236,Delhi,Bhilwara,266.0,Mini Truck,22.7,Medium,Clear,3,6.45,7.2,3762.44,0.75,On Time
+10237,Jaipur,Kota,466.3,Truck,18.8,Low,Clear,1,11.02,10.95,7927.41,-0.07,On Time
+10238,Udaipur,Bhilwara,99.8,Van,34.8,Low,Hot,7,3.34,3.48,1408.56,0.14,On Time
+10239,Kota,Udaipur,122.8,Mini Truck,32.2,Low,Clear,3,3.27,3.4,1854.3,0.13,On Time
+10240,Kota,Jaipur,145.7,Truck,21.0,Low,Cloudy,2,3.75,4.2,2574.63,0.45,On Time
+10241,Ahmedabad,Jaipur,67.5,Mini Truck,11.7,Medium,Rain,4,2.22,3.48,1102.1,1.26,Delayed
+10242,Jaipur,Delhi,85.7,Mini Truck,4.7,Medium,Cloudy,5,2.8,3.78,1294.89,0.98,Delayed
+10243,Jaipur,Delhi,466.8,Truck,25.3,Low,Clear,8,12.3,12.53,8143.71,0.23,On Time
+10244,Ahmedabad,Jaipur,409.6,Van,17.1,Low,Cloudy,6,9.61,9.13,4870.88,-0.48,On Time
+10245,Ahmedabad,Jodhpur,167.7,Mini Truck,26.5,Low,Rain,1,3.91,5.15,2367.52,1.24,Delayed
+10246,Ahmedabad,Delhi,600.0,Mini Truck,29.4,Medium,Clear,6,14.41,16.04,8388.53,1.63,Delayed
+10247,Udaipur,Kota,195.9,Van,2.3,Low,Clear,4,4.8,4.76,2319.67,-0.04,On Time
+10248,Jaipur,Bhilwara,555.5,Van,11.0,Medium,Clear,3,12.11,12.73,6425.8,0.62,On Time
+10249,Udaipur,Jaipur,561.5,Truck,12.1,Medium,Clear,6,14.14,14.74,9624.67,0.6,On Time
+10250,Ahmedabad,Delhi,162.8,Truck,5.7,Low,Clear,2,4.15,4.43,2760.17,0.28,On Time
+10251,Jaipur,Jaipur,349.5,Truck,21.4,Low,Cloudy,3,8.67,9.0,5974.93,0.33,On Time
+10252,Udaipur,Udaipur,400.2,Van,25.1,Low,Clear,4,9.06,8.34,4826.01,-0.72,On Time
+10253,Udaipur,Ajmer,160.6,Mini Truck,18.4,Medium,Clear,6,4.65,4.96,2388.37,0.31,On Time
+10254,Ahmedabad,Bhilwara,46.3,Mini Truck,5.2,High,Cloudy,8,2.47,4.3,881.38,1.83,Delayed
+10255,Jaipur,Jaipur,345.0,Truck,23.0,Low,Clear,7,9.28,9.21,6009.42,-0.07,On Time
+10256,Ahmedabad,Ajmer,143.5,Van,11.7,High,Cloudy,1,3.17,4.25,1726.95,1.08,Delayed
+10257,Jaipur,Delhi,213.9,Mini Truck,10.8,Low,Clear,6,5.83,6.51,3069.23,0.68,On Time
+10258,Kota,Ajmer,254.2,Truck,30.9,High,Hot,8,7.35,8.79,4491.02,1.44,Delayed
+10259,Delhi,Bhilwara,309.3,Mini Truck,42.2,Medium,Clear,7,8.13,8.85,4496.54,0.72,On Time
+10260,Delhi,Jaipur,190.2,Mini Truck,23.9,Medium,Cloudy,7,5.49,6.21,2792.33,0.72,On Time
+10261,Delhi,Udaipur,263.8,Van,11.8,Medium,Rain,6,6.58,7.59,3229.77,1.01,Delayed
+10262,Ahmedabad,Jodhpur,415.7,Van,13.7,Medium,Clear,5,9.56,10.34,4924.25,0.78,Delayed
+10263,Kota,Delhi,74.2,Mini Truck,26.6,High,Clear,6,2.73,4.41,1202.53,1.68,Delayed
+10264,Jaipur,Jaipur,102.2,Truck,4.3,Medium,Cloudy,4,3.1,3.69,1811.95,0.59,On Time
+10265,Udaipur,Bhilwara,117.9,Van,60.0,Medium,Clear,7,3.72,4.27,1697.44,0.55,On Time
+10266,Jaipur,Delhi,172.1,Mini Truck,16.7,Low,Rain,1,4.0,5.07,2396.39,1.07,Delayed
+10267,Udaipur,Kota,340.1,Van,15.8,Low,Hot,4,7.81,7.22,4095.62,-0.59,On Time
+10268,Jaipur,Ajmer,385.1,Van,3.0,High,Clear,2,8.38,9.5,4467.44,1.12,Delayed
+10269,Kota,Jodhpur,207.1,Van,15.6,Medium,Clear,3,4.85,5.65,2504.89,0.8,Delayed
+10270,Udaipur,Bhilwara,207.4,Mini Truck,8.3,Medium,Clear,6,5.69,6.15,2958.86,0.46,On Time
+10271,Ahmedabad,Kota,453.2,Truck,31.6,Medium,Clear,5,11.44,11.9,7838.65,0.46,On Time
+10272,Jaipur,Jaipur,256.3,Truck,21.0,High,Rain,1,6.14,8.85,4349.59,2.71,Delayed
+10273,Jaipur,Udaipur,187.1,Truck,3.6,Medium,Rain,5,5.25,6.47,3236.83,1.22,Delayed
+10274,Udaipur,Delhi,361.7,Van,21.9,Medium,Clear,5,8.44,10.03,4296.22,1.59,Delayed
+10275,Ahmedabad,Ajmer,341.2,Mini Truck,27.5,Medium,Clear,5,8.48,8.39,4836.99,-0.09,On Time
+10276,Ahmedabad,Delhi,282.4,Van,24.3,Medium,Clear,6,6.96,6.66,3472.73,-0.3,On Time
+10277,Kota,Jodhpur,167.7,Truck,21.5,Low,Clear,1,4.08,4.48,2907.87,0.4,On Time
+10278,Ahmedabad,Jaipur,132.7,Truck,35.4,High,Rain,1,3.27,5.13,2331.27,1.86,Delayed
+10279,Ahmedabad,Delhi,139.4,Mini Truck,12.2,Medium,Clear,7,4.36,4.62,2062.97,0.26,On Time
+10280,Ahmedabad,Ajmer,143.7,Van,15.5,High,Rain,5,3.89,6.63,1797.18,2.74,Delayed
+10281,Delhi,Jaipur,136.9,Truck,7.3,Low,Cloudy,7,4.44,4.32,2463.02,-0.12,On Time
+10282,Kota,Delhi,172.2,Mini Truck,60.0,Low,Cloudy,7,5.09,5.6,2657.37,0.51,On Time
+10283,Jaipur,Udaipur,228.3,Van,6.6,High,Clear,3,5.3,6.53,2725.14,1.23,Delayed
+10284,Udaipur,Bhilwara,242.7,Van,24.3,Medium,Cloudy,6,6.14,7.1,3054.4,0.96,Delayed
+10285,Jaipur,Jaipur,121.0,Truck,11.4,Medium,Cloudy,6,3.89,4.46,2193.55,0.57,On Time
+10286,Kota,Bhilwara,261.8,Truck,15.8,Medium,Rain,4,6.81,7.9,4536.79,1.09,Delayed
+10287,Udaipur,Jaipur,240.9,Van,2.1,Medium,Clear,8,6.46,7.94,2965.94,1.48,Delayed
+10288,Kota,Udaipur,216.9,Van,25.1,Medium,Clear,7,5.78,6.98,2708.0,1.2,Delayed
+10289,Ahmedabad,Bhilwara,164.8,Truck,56.9,Low,Cloudy,6,4.91,4.68,3049.59,-0.23,On Time
+10290,Udaipur,Kota,122.5,Van,24.7,High,Clear,5,3.45,4.87,1569.43,1.42,Delayed
+10291,Ahmedabad,Ajmer,307.8,Truck,1.5,High,Clear,8,8.6,10.76,5348.6,2.16,Delayed
+10292,Jaipur,Kota,240.0,Van,21.1,Low,Hot,2,5.36,5.22,2907.21,-0.14,On Time
+10293,Jaipur,Delhi,275.7,Truck,5.3,High,Clear,5,7.31,8.39,4737.49,1.08,Delayed
+10294,Udaipur,Udaipur,182.2,Mini Truck,6.4,High,Clear,1,4.23,5.94,2537.95,1.71,Delayed
+10295,Udaipur,Kota,170.7,Truck,24.2,Medium,Clear,6,5.05,6.77,2970.99,1.72,Delayed
+10296,Kota,Jaipur,382.3,Truck,21.2,Medium,Cloudy,8,10.33,11.15,6643.03,0.82,Delayed
+10297,Kota,Delhi,600.0,Mini Truck,26.2,Medium,Clear,6,14.41,15.58,8367.66,1.17,Delayed
+10298,Ahmedabad,Delhi,195.9,Van,21.3,Low,Cloudy,4,4.8,4.44,2405.97,-0.36,On Time
+10299,Udaipur,Kota,249.2,Mini Truck,16.2,Medium,Clear,7,6.8,7.66,3586.19,0.86,Delayed
+10300,Jaipur,Kota,220.0,Truck,25.5,High,Clear,2,5.48,6.82,3806.15,1.34,Delayed
+10301,Kota,Udaipur,144.7,Van,4.5,Medium,Cloudy,6,4.09,5.73,1800.83,1.64,Delayed
+10302,Kota,Ajmer,180.0,Mini Truck,30.2,Medium,Clear,4,4.72,6.14,2631.0,1.42,Delayed
+10303,Jaipur,Kota,591.0,Van,5.5,Low,Hot,4,13.03,14.36,6867.24,1.33,Delayed
+10304,Kota,Jodhpur,155.0,Van,20.6,Low,Clear,2,3.59,3.28,1887.59,-0.31,On Time
+10305,Ahmedabad,Kota,239.2,Mini Truck,36.6,Medium,Clear,5,6.22,6.94,3430.12,0.72,On Time
+10306,Udaipur,Bhilwara,160.7,Van,6.9,Low,Clear,5,4.25,4.42,2023.52,0.17,On Time
+10307,Jaipur,Jaipur,222.9,Mini Truck,26.9,Medium,Clear,5,5.85,6.25,3183.78,0.4,On Time
+10308,Udaipur,Jodhpur,155.1,Truck,24.7,Medium,Hot,3,4.15,5.21,2765.79,1.06,Delayed
+10309,Kota,Jodhpur,173.8,Van,17.7,Medium,Rain,7,4.88,6.79,2203.47,1.91,Delayed
+10310,Kota,Bhilwara,100.0,Truck,3.5,Low,Clear,8,3.77,3.52,1800.39,-0.25,On Time
+10311,Jaipur,Bhilwara,241.9,Truck,20.9,Medium,Cloudy,7,6.89,7.37,4237.41,0.48,On Time
+10312,Ahmedabad,Delhi,189.0,Van,18.2,Medium,Cloudy,5,4.84,5.29,2366.3,0.45,On Time
+10313,Delhi,Ajmer,299.4,Mini Truck,28.1,Low,Clear,2,7.01,6.41,4225.94,-0.6,On Time
+10314,Jaipur,Jaipur,222.6,Van,7.0,Low,Clear,3,5.18,5.56,2608.35,0.38,On Time
+10315,Delhi,Udaipur,152.7,Truck,35.4,Low,Hot,7,4.81,4.79,2859.02,-0.02,On Time
+10316,Delhi,Jodhpur,132.9,Truck,17.4,High,Hot,5,3.99,5.43,2383.62,1.44,Delayed
+10317,Ahmedabad,Udaipur,229.3,Mini Truck,15.1,Low,Hot,3,5.64,6.18,3263.15,0.54,On Time
+10318,Delhi,Kota,437.1,Van,36.5,Medium,Rain,8,10.55,12.05,5269.69,1.5,Delayed
+10319,Delhi,Kota,168.2,Truck,30.3,High,Cloudy,2,4.27,5.63,2926.52,1.36,Delayed
+10320,Ahmedabad,Udaipur,79.1,Truck,29.9,Medium,Clear,5,2.74,3.8,1525.2,1.06,Delayed
+10321,Delhi,Kota,255.6,Truck,8.5,Low,Clear,8,7.38,7.13,4479.52,-0.25,On Time
+10322,Delhi,Ajmer,413.7,Mini Truck,23.3,High,Clear,1,9.37,9.89,5622.7,0.52,On Time
+10323,Delhi,Bhilwara,303.2,Truck,4.4,Low,Cloudy,8,8.49,9.19,5273.64,0.7,On Time
+10324,Jaipur,Kota,114.8,Truck,9.8,Medium,Rain,6,3.75,4.88,2015.4,1.13,Delayed
+10325,Jaipur,Delhi,244.8,Van,10.4,High,Rain,2,5.46,7.44,2858.93,1.98,Delayed
+10326,Jaipur,Kota,350.5,Van,25.9,Medium,Hot,8,8.74,9.42,4237.33,0.68,On Time
+10327,Ahmedabad,Jaipur,182.1,Truck,32.6,Medium,Rain,8,5.67,7.2,3353.16,1.53,Delayed
+10328,Kota,Ajmer,170.3,Truck,16.2,Low,Hot,4,4.68,4.86,3038.54,0.18,On Time
+10329,Delhi,Jaipur,173.3,Van,13.4,Medium,Clear,4,4.33,5.47,2133.73,1.14,Delayed
+10330,Delhi,Jaipur,206.5,Mini Truck,27.5,Medium,Rain,8,6.03,8.27,3052.67,2.24,Delayed
+10331,Ahmedabad,Delhi,118.7,Mini Truck,17.7,Low,Cloudy,8,4.08,3.87,1839.73,-0.21,On Time
+10332,Delhi,Ajmer,254.4,Mini Truck,17.5,High,Clear,2,6.01,7.09,3598.17,1.08,Delayed
+10333,Jaipur,Ajmer,261.0,Mini Truck,10.3,High,Hot,4,6.52,8.09,3605.95,1.57,Delayed
+10334,Kota,Ajmer,264.3,Mini Truck,17.9,High,Rain,7,7.13,9.63,3767.03,2.5,Delayed
+10335,Udaipur,Ajmer,224.5,Mini Truck,7.3,Medium,Clear,2,5.35,6.0,3161.09,0.65,On Time
+10336,Delhi,Ajmer,116.9,Mini Truck,10.9,Medium,Clear,1,2.78,3.25,1686.27,0.47,On Time
+10337,Jaipur,Delhi,200.3,Mini Truck,39.0,High,Cloudy,2,4.81,5.83,2892.34,1.02,Delayed
+10338,Udaipur,Kota,539.8,Van,14.6,High,Cloudy,5,12.15,12.76,6343.16,0.61,On Time
+10339,Kota,Jaipur,258.7,Mini Truck,25.2,Medium,Hot,5,6.65,7.2,3736.37,0.55,On Time
+10340,Udaipur,Ajmer,146.7,Mini Truck,10.8,Low,Clear,3,3.8,4.37,2142.03,0.57,On Time
+10341,Jaipur,Jodhpur,312.3,Mini Truck,38.0,Low,Clear,4,7.66,7.86,4467.23,0.2,On Time
+10342,Udaipur,Kota,543.2,Truck,14.2,Medium,Clear,8,14.07,14.68,9248.55,0.61,On Time
+10343,Ahmedabad,Kota,276.1,Van,38.6,Medium,Clear,6,6.83,7.86,3417.96,1.03,Delayed
+10344,Udaipur,Jaipur,210.4,Van,8.9,High,Clear,4,5.1,6.02,2559.96,0.92,Delayed
+10345,Delhi,Delhi,436.4,Van,11.8,Low,Hot,7,10.35,10.68,5204.69,0.33,On Time
+10346,Delhi,Udaipur,175.0,Mini Truck,13.3,Low,Clear,2,4.25,3.45,2471.2,-0.8,On Time
+10347,Ahmedabad,Udaipur,377.9,Mini Truck,12.1,Medium,Clear,6,9.48,10.34,5301.4,0.86,Delayed
+10348,Jaipur,Kota,168.4,Truck,28.2,Medium,Clear,6,5.0,5.82,2998.64,0.82,Delayed
+10349,Delhi,Bhilwara,183.8,Van,28.0,Low,Clear,8,5.27,5.4,2418.96,0.13,On Time
+10350,Kota,Bhilwara,338.9,Mini Truck,19.1,Medium,Rain,8,8.97,11.0,4855.35,2.03,Delayed
+10351,Delhi,Jaipur,426.8,Van,25.1,Medium,Cloudy,4,9.61,10.76,5039.07,1.15,Delayed
+10352,Delhi,Udaipur,217.6,Truck,60.0,Medium,Rain,6,6.14,7.1,3883.5,0.96,Delayed
+10353,Jaipur,Kota,420.7,Truck,21.5,Medium,Clear,6,10.86,12.09,7221.23,1.23,Delayed
+10354,Udaipur,Delhi,279.2,Truck,27.4,Low,Clear,5,7.39,7.3,4836.37,-0.09,On Time
+10355,Delhi,Udaipur,148.0,Van,9.2,Medium,Clear,1,3.26,3.07,1758.61,-0.19,On Time
+10356,Ahmedabad,Kota,184.7,Mini Truck,10.8,High,Clear,8,5.54,6.99,2740.07,1.45,Delayed
+10357,Udaipur,Kota,301.3,Mini Truck,6.1,Low,Rain,2,7.06,8.15,4188.34,1.09,Delayed
+10358,Kota,Ajmer,450.3,Truck,17.9,High,Clear,4,11.19,12.23,7669.75,1.04,Delayed
+10359,Jaipur,Delhi,381.4,Mini Truck,16.9,Medium,Cloudy,8,9.92,11.32,5454.89,1.4,Delayed
+10360,Kota,Ajmer,384.3,Truck,4.7,High,Clear,5,9.84,10.92,6620.49,1.08,Delayed
+10361,Udaipur,Jaipur,108.2,Van,18.7,High,Cloudy,7,3.51,4.89,1439.49,1.38,Delayed
+10362,Udaipur,Ajmer,332.4,Truck,20.7,Low,Hot,8,9.17,9.17,5773.88,0.0,On Time
+10363,Udaipur,Jodhpur,323.4,Van,30.9,Medium,Cloudy,7,8.0,8.03,3966.94,0.03,On Time
+10364,Kota,Ajmer,265.3,Truck,12.7,Low,Cloudy,3,6.71,6.36,4629.12,-0.35,On Time
+10365,Udaipur,Jodhpur,320.7,Mini Truck,26.1,High,Hot,6,8.21,9.69,4535.15,1.48,Delayed
+10366,Kota,Udaipur,85.4,Mini Truck,23.9,Medium,Cloudy,6,2.98,3.72,1336.65,0.74,On Time
+10367,Udaipur,Bhilwara,60.7,Truck,23.7,Medium,Clear,4,2.13,1.48,1166.65,-0.65,On Time
+10368,Ahmedabad,Kota,262.6,Mini Truck,8.4,Medium,Clear,1,6.02,7.04,3645.61,1.02,Delayed
+10369,Udaipur,Jodhpur,222.3,Mini Truck,15.0,High,Cloudy,1,5.12,7.04,3022.9,1.92,Delayed
+10370,Kota,Delhi,204.0,Mini Truck,33.5,Low,Cloudy,4,5.25,5.88,2998.71,0.63,On Time
+10371,Delhi,Ajmer,286.2,Van,28.2,Medium,Clear,4,6.68,6.71,3506.52,0.03,On Time
+10372,Udaipur,Jodhpur,255.0,Mini Truck,5.0,Medium,Clear,5,6.57,7.14,3587.88,0.57,On Time
+10373,Delhi,Delhi,271.4,Van,24.4,Medium,Hot,7,6.91,8.33,3441.96,1.42,Delayed
+10374,Ahmedabad,Bhilwara,359.8,Truck,4.3,Medium,Clear,4,9.09,10.25,6185.93,1.16,Delayed
+10375,Jaipur,Bhilwara,172.2,Mini Truck,12.6,Medium,Clear,7,5.09,6.46,2575.88,1.37,Delayed
+10376,Ahmedabad,Ajmer,274.5,Mini Truck,20.7,Low,Clear,8,7.54,7.59,4014.17,0.05,On Time
+10377,Udaipur,Jaipur,160.9,Mini Truck,21.2,High,Rain,8,5.02,7.29,2463.72,2.27,Delayed
+10378,Delhi,Ajmer,76.6,Truck,4.8,Low,Clear,3,2.32,1.62,1363.63,-0.7,On Time
+10379,Delhi,Udaipur,195.9,Van,8.1,Medium,Cloudy,7,5.34,6.62,2431.85,1.28,Delayed
+10380,Kota,Jodhpur,388.1,Van,43.4,Low,Clear,5,8.99,8.78,4663.69,-0.21,On Time
+10381,Delhi,Kota,141.8,Mini Truck,6.1,Low,Cloudy,8,4.59,4.71,2106.0,0.12,On Time
+10382,Kota,Jaipur,287.2,Truck,10.1,Low,Rain,6,7.76,8.55,4970.32,0.79,Delayed
+10383,Jaipur,Ajmer,361.6,Truck,1.4,Medium,Clear,6,9.49,9.11,6212.53,-0.38,On Time
+10384,Udaipur,Delhi,334.1,Truck,48.6,Medium,Clear,8,9.21,9.54,5961.46,0.33,On Time
+10385,Kota,Jaipur,160.5,Truck,7.0,Low,Clear,8,5.17,5.37,2815.61,0.2,On Time
+10386,Jaipur,Jodhpur,152.9,Truck,8.3,Low,Clear,8,5.0,4.98,2811.71,-0.02,On Time
+10387,Delhi,Jaipur,234.4,Van,4.3,High,Rain,7,6.14,8.65,2836.22,2.51,Delayed
+10388,Delhi,Jodhpur,264.3,Van,14.5,Low,Clear,6,6.59,6.94,3215.81,0.35,On Time
+10389,Jaipur,Ajmer,319.4,Van,12.2,High,Cloudy,6,7.73,8.96,3825.0,1.23,Delayed
+10390,Delhi,Jodhpur,321.2,Mini Truck,38.0,Low,Clear,2,7.5,7.27,4584.48,-0.23,On Time
+10391,Jaipur,Jaipur,600.0,Truck,35.7,Medium,Clear,8,15.39,16.03,10324.18,0.64,On Time
+10392,Kota,Delhi,470.3,Mini Truck,51.7,Low,Clear,3,10.99,11.34,6627.93,0.35,On Time
+10393,Kota,Bhilwara,189.9,Truck,23.1,High,Cloudy,8,5.86,7.35,3441.82,1.49,Delayed
+10394,Jaipur,Jaipur,600.0,Van,6.8,Medium,Clear,5,13.4,13.3,7015.72,-0.1,On Time
+10395,Kota,Jodhpur,122.3,Mini Truck,15.6,Medium,Cloudy,5,3.62,4.33,1813.45,0.71,On Time
+10396,Kota,Bhilwara,129.7,Van,8.2,Low,Clear,6,3.78,4.11,1691.87,0.33,On Time
+10397,Kota,Jodhpur,342.0,Truck,5.2,Medium,Clear,8,9.39,10.7,5903.52,1.31,Delayed
+10398,Ahmedabad,Delhi,200.2,Truck,45.4,Medium,Rain,1,4.84,6.47,3523.33,1.63,Delayed
+10399,Udaipur,Jodhpur,471.3,Truck,26.4,Low,Rain,5,11.86,11.99,8079.61,0.13,On Time
+10400,Delhi,Ajmer,314.6,Van,24.0,Low,Clear,8,7.99,7.81,3907.96,-0.18,On Time
+10401,Ahmedabad,Kota,217.4,Truck,4.3,High,Cloudy,3,5.6,7.41,3789.8,1.81,Delayed
+10402,Kota,Jaipur,208.3,Van,19.3,Low,Clear,4,5.06,5.45,2469.91,0.39,On Time
+10403,Jaipur,Kota,204.2,Mini Truck,12.3,Medium,Rain,8,5.98,7.71,2946.02,1.73,Delayed
+10404,Kota,Jodhpur,68.6,Truck,17.6,Medium,Rain,3,2.14,3.53,1245.37,1.39,Delayed
+10405,Udaipur,Delhi,139.2,Truck,3.1,High,Rain,6,4.32,7.01,2529.29,2.69,Delayed
+10406,Kota,Jaipur,158.7,Truck,22.9,High,Rain,6,4.77,6.78,2871.76,2.01,Delayed
+10407,Jaipur,Jodhpur,394.4,Mini Truck,2.6,High,Clear,2,9.12,10.7,5390.23,1.58,Delayed
+10408,Udaipur,Bhilwara,167.3,Truck,14.3,Low,Rain,7,5.15,6.29,3022.72,1.14,Delayed
+10409,Kota,Udaipur,279.9,Van,19.7,High,Clear,5,6.73,8.49,3358.14,1.76,Delayed
+10410,Udaipur,Jodhpur,208.7,Van,26.4,Low,Clear,7,5.61,5.88,2658.31,0.27,On Time
+10411,Delhi,Kota,139.9,Truck,20.9,Medium,Clear,8,4.69,5.65,2595.34,0.96,Delayed
+10412,Delhi,Jaipur,264.7,Truck,23.9,Medium,Hot,7,7.42,7.95,4626.19,0.53,On Time
+10413,Kota,Kota,227.7,Mini Truck,20.5,Low,Rain,5,5.96,6.77,3265.0,0.81,Delayed
+10414,Udaipur,Jaipur,392.9,Mini Truck,8.4,High,Clear,5,9.63,10.72,5536.11,1.09,Delayed
+10415,Jaipur,Jodhpur,185.0,Mini Truck,4.2,Low,Cloudy,8,5.55,5.52,2645.11,-0.03,On Time
+10416,Kota,Ajmer,160.2,Truck,33.2,Medium,Rain,6,4.81,5.78,2913.58,0.97,Delayed
+10417,Delhi,Bhilwara,350.1,Mini Truck,40.4,Medium,Clear,5,8.68,9.54,4947.08,0.86,Delayed
+10418,Delhi,Jodhpur,208.6,Mini Truck,13.9,Medium,Clear,1,4.82,4.64,2902.18,-0.18,On Time
+10419,Kota,Kota,365.4,Van,9.7,Low,Cloudy,1,7.79,8.17,4281.67,0.38,On Time
+10420,Udaipur,Udaipur,170.7,Mini Truck,3.1,Medium,Clear,4,4.51,5.22,2495.96,0.71,On Time
+10421,Delhi,Udaipur,248.3,Van,11.1,High,Clear,5,6.07,8.43,3003.58,2.36,Delayed
+10422,Udaipur,Delhi,163.8,Van,9.0,Low,Cloudy,2,3.77,3.78,2008.78,0.01,On Time
+10423,Delhi,Jaipur,144.4,Mini Truck,5.9,Medium,Hot,4,3.93,4.84,2043.8,0.91,Delayed
+10424,Delhi,Kota,63.1,Van,34.7,Low,Cloudy,6,2.39,2.8,926.76,0.41,On Time
+10425,Ahmedabad,Delhi,480.2,Truck,24.3,Medium,Rain,5,12.07,13.5,8256.23,1.43,Delayed
+10426,Delhi,Kota,175.7,Truck,24.6,High,Clear,1,4.27,5.89,3039.86,1.62,Delayed
+10427,Jaipur,Jaipur,299.5,Mini Truck,14.5,Medium,Clear,2,7.02,8.17,4155.48,1.15,Delayed
+10428,Kota,Jodhpur,210.1,Truck,7.6,Medium,Cloudy,8,6.33,7.01,3711.48,0.68,On Time
+10429,Kota,Jodhpur,411.4,Van,17.7,Medium,Clear,4,9.29,10.53,4928.82,1.24,Delayed
+10430,Udaipur,Udaipur,83.9,Truck,16.7,Medium,Rain,2,2.31,3.05,1483.5,0.74,On Time
+10431,Delhi,Jodhpur,256.4,Mini Truck,4.1,Low,Clear,5,6.6,7.32,3583.97,0.72,On Time
+10432,Jaipur,Jodhpur,338.1,Mini Truck,24.6,Low,Clear,3,8.05,7.25,4710.18,-0.8,On Time
+10433,Udaipur,Ajmer,237.2,Van,15.7,Medium,Clear,2,5.3,6.61,2844.79,1.31,Delayed
+10434,Ahmedabad,Udaipur,151.9,Mini Truck,16.7,Medium,Hot,2,3.74,3.9,2236.49,0.16,On Time
+10435,Udaipur,Delhi,85.8,Truck,10.0,Medium,Clear,6,3.08,4.67,1579.1,1.59,Delayed
+10436,Udaipur,Bhilwara,160.9,Mini Truck,12.7,Low,Clear,1,3.76,3.83,2323.97,0.07,On Time
+10437,Delhi,Ajmer,73.2,Van,24.8,Medium,Clear,8,2.96,3.23,1080.6,0.27,On Time
+10438,Ahmedabad,Delhi,333.8,Mini Truck,42.0,Low,Rain,5,8.32,9.96,4757.38,1.64,Delayed
+10439,Udaipur,Jaipur,293.4,Truck,43.1,High,Clear,2,7.18,8.19,5044.7,1.01,Delayed
+10440,Jaipur,Ajmer,352.5,Van,12.1,Medium,Clear,5,8.24,8.84,4203.48,0.6,On Time
+10441,Jaipur,Delhi,135.2,Truck,15.1,Low,Clear,1,3.32,4.49,2303.14,1.17,Delayed
+10442,Kota,Jaipur,123.7,Van,31.3,Low,Cloudy,6,3.66,3.94,1606.58,0.28,On Time
+10443,Ahmedabad,Udaipur,301.9,Mini Truck,8.8,High,Clear,5,7.61,8.2,4194.23,0.59,On Time
+10444,Ahmedabad,Bhilwara,296.0,Van,5.9,Low,Clear,7,7.43,7.31,3648.77,-0.12,On Time
+10445,Kota,Jaipur,79.7,Van,18.0,High,Clear,1,1.84,3.18,1022.99,1.34,Delayed
+10446,Udaipur,Jodhpur,156.5,Mini Truck,21.2,Low,Cloudy,1,3.66,3.84,2218.61,0.18,On Time
+10447,Ahmedabad,Kota,493.8,Truck,16.3,High,Cloudy,8,12.92,14.5,8505.92,1.58,Delayed
+10448,Jaipur,Jaipur,341.5,Mini Truck,11.7,High,Clear,4,8.31,10.06,4777.36,1.75,Delayed
+10449,Jaipur,Jaipur,200.6,Van,21.0,Medium,Hot,6,5.26,5.57,2472.14,0.31,On Time
+10450,Delhi,Bhilwara,115.1,Mini Truck,12.6,Low,Hot,6,3.64,3.69,1693.67,0.05,On Time
+10451,Ahmedabad,Kota,133.6,Van,15.1,Low,Clear,8,4.22,4.36,1780.43,0.14,On Time
+10452,Udaipur,Jodhpur,181.8,Mini Truck,14.4,Medium,Rain,7,5.3,6.46,2660.95,1.16,Delayed
+10453,Kota,Delhi,102.1,Mini Truck,19.0,Medium,Cloudy,5,3.17,4.46,1560.67,1.29,Delayed
+10454,Kota,Delhi,418.4,Truck,9.9,Low,Rain,3,10.27,10.74,7060.69,0.47,On Time
+10455,Udaipur,Jaipur,399.1,Van,18.0,Low,Clear,7,9.57,9.63,4795.76,0.06,On Time
+10456,Delhi,Kota,117.3,Truck,2.7,Medium,Clear,4,3.45,4.1,2024.75,0.65,On Time
+10457,Kota,Kota,562.6,Van,8.1,Medium,Clear,6,12.8,13.04,6666.41,0.24,On Time
+10458,Ahmedabad,Jodhpur,178.6,Mini Truck,23.4,Low,Rain,1,4.15,4.98,2550.88,0.83,Delayed
+10459,Delhi,Bhilwara,230.7,Van,12.9,Low,Clear,6,5.89,5.3,2878.63,-0.59,On Time
+10460,Ahmedabad,Udaipur,177.2,Truck,12.5,High,Clear,7,5.38,6.68,3138.95,1.3,Delayed
+10461,Jaipur,Delhi,123.4,Truck,29.3,Medium,Clear,3,3.41,4.12,2169.96,0.71,On Time
+10462,Delhi,Bhilwara,188.9,Truck,35.2,Medium,Clear,2,4.75,4.81,3287.35,0.06,On Time
+10463,Kota,Ajmer,80.4,Van,26.2,Medium,Cloudy,2,2.04,3.12,1011.02,1.08,Delayed
+10464,Delhi,Delhi,189.6,Truck,15.0,Low,Clear,8,5.85,5.97,3412.37,0.12,On Time
+10465,Delhi,Bhilwara,218.8,Truck,12.0,Low,Clear,6,6.17,6.41,3787.54,0.24,On Time
+10466,Delhi,Delhi,259.4,Truck,10.2,Low,Hot,6,7.11,7.41,4453.0,0.3,On Time
+10467,Delhi,Udaipur,94.5,Mini Truck,18.9,High,Clear,4,2.82,3.8,1411.16,0.98,Delayed
+10468,Ahmedabad,Ajmer,97.6,Mini Truck,7.6,Medium,Cloudy,6,3.25,4.05,1507.91,0.8,Delayed
+10469,Jaipur,Udaipur,253.3,Van,27.8,Low,Clear,3,5.82,6.1,3022.37,0.28,On Time
+10470,Udaipur,Jodhpur,117.5,Van,22.0,High,Clear,6,3.53,4.49,1571.64,0.96,Delayed
+10471,Delhi,Ajmer,204.3,Truck,12.5,Low,Rain,5,5.65,5.95,3585.03,0.3,On Time
+10472,Kota,Jaipur,421.2,Mini Truck,12.4,High,Rain,7,10.62,12.81,5987.28,2.19,Delayed
+10473,Delhi,Bhilwara,111.9,Truck,12.4,High,Clear,8,4.04,5.37,2057.6,1.33,Delayed
+10474,Kota,Ajmer,141.7,Truck,13.4,Low,Hot,3,3.84,4.13,2422.49,0.29,On Time
+10475,Ahmedabad,Jodhpur,372.4,Mini Truck,16.8,Low,Hot,4,9.0,9.17,5232.53,0.17,On Time
+10476,Kota,Jodhpur,79.4,Mini Truck,17.8,Medium,Hot,5,2.66,3.73,1246.33,1.07,Delayed
+10477,Udaipur,Udaipur,205.9,Mini Truck,39.5,Medium,Clear,5,5.48,6.73,3022.42,1.25,Delayed
+10478,Jaipur,Delhi,267.9,Van,16.8,Medium,Clear,7,6.84,7.78,3251.89,0.94,Delayed
+10479,Kota,Ajmer,361.6,Van,11.6,High,Cloudy,2,7.89,9.52,4275.45,1.63,Delayed
+10480,Kota,Bhilwara,180.0,Truck,36.1,Medium,Cloudy,3,4.73,5.03,3154.47,0.3,On Time
+10481,Jaipur,Ajmer,110.9,Van,15.1,Low,Clear,7,3.57,3.25,1478.21,-0.32,On Time
+10482,Udaipur,Kota,95.4,Mini Truck,2.1,Low,Rain,5,3.02,4.2,1401.17,1.18,Delayed
+10483,Delhi,Delhi,261.0,Mini Truck,41.3,Medium,Clear,4,6.52,7.01,3762.17,0.49,On Time
+10484,Kota,Bhilwara,264.4,Van,8.1,Low,Clear,7,6.77,6.33,3185.43,-0.44,On Time
+10485,Jaipur,Bhilwara,534.3,Truck,20.7,Medium,Clear,2,12.79,14.43,9087.41,1.64,Delayed
+10486,Ahmedabad,Jaipur,188.9,Truck,14.1,Low,Cloudy,5,5.29,6.08,3340.38,0.79,Delayed
+10487,Jaipur,Udaipur,266.3,Van,15.6,Low,Clear,7,6.81,6.75,3271.26,-0.06,On Time
+10488,Ahmedabad,Jaipur,215.1,Truck,9.0,Low,Rain,3,5.54,5.85,3758.82,0.31,On Time
+10489,Udaipur,Bhilwara,118.0,Truck,7.5,Medium,Cloudy,2,3.1,4.23,2051.65,1.13,Delayed
+10490,Delhi,Delhi,262.9,Truck,28.6,Low,Rain,3,6.65,7.23,4583.52,0.58,On Time
+10491,Jaipur,Ajmer,387.4,Mini Truck,16.0,Medium,Hot,3,9.15,10.55,5395.64,1.4,Delayed
+10492,Kota,Ajmer,319.0,Mini Truck,13.4,Medium,Cloudy,3,7.63,8.21,4481.54,0.58,On Time
+10493,Udaipur,Delhi,153.7,Van,13.6,Medium,Hot,7,4.46,6.2,1908.21,1.74,Delayed
+10494,Jaipur,Bhilwara,600.0,Mini Truck,30.1,Medium,Clear,2,13.69,14.16,8307.39,0.47,On Time
+10495,Kota,Jodhpur,198.8,Truck,8.2,Low,Clear,7,5.88,6.94,3474.08,1.06,Delayed
+10496,Jaipur,Ajmer,414.8,Mini Truck,36.3,Medium,Clear,7,10.48,11.27,5908.05,0.79,Delayed
+10497,Ahmedabad,Jodhpur,191.5,Van,18.5,Low,Clear,7,5.25,5.87,2423.67,0.62,On Time
+10498,Jaipur,Ajmer,409.5,Mini Truck,12.2,Medium,Rain,5,10.0,11.26,5757.22,1.26,Delayed
+10499,Jaipur,Ajmer,206.0,Truck,10.6,Low,Clear,6,5.87,5.28,3635.39,-0.59,On Time
+10500,Jaipur,Udaipur,213.9,Truck,9.8,Medium,Clear,1,5.15,4.81,3627.25,-0.34,On Time
+10501,Udaipur,Udaipur,379.8,Van,9.5,High,Cloudy,5,8.81,10.98,4493.11,2.17,Delayed
+10502,Jaipur,Kota,578.2,Mini Truck,25.1,Medium,Cloudy,2,13.21,14.04,7914.68,0.83,Delayed
+10503,Kota,Jaipur,201.9,Mini Truck,6.9,Medium,Clear,1,4.67,4.81,2796.9,0.14,On Time
+10504,Ahmedabad,Delhi,183.9,Mini Truck,14.2,Medium,Rain,1,4.27,6.36,2606.14,2.09,Delayed
+10505,Ahmedabad,Delhi,151.7,Truck,17.8,Low,Clear,1,3.71,4.23,2617.07,0.52,On Time
+10506,Jaipur,Delhi,139.2,Van,7.9,High,Clear,6,3.98,6.1,1755.75,2.12,Delayed
+10507,Udaipur,Kota,157.4,Mini Truck,5.7,Low,Cloudy,7,4.76,4.26,2321.2,-0.5,On Time
+10508,Udaipur,Udaipur,171.3,Truck,3.1,High,Cloudy,8,5.42,7.58,3047.71,2.16,Delayed
+10509,Kota,Bhilwara,354.3,Truck,17.4,Medium,Clear,4,8.96,9.83,6088.82,0.87,Delayed
+10510,Jaipur,Jodhpur,299.9,Truck,4.0,Medium,Rain,2,7.33,9.47,5077.75,2.14,Delayed
+10511,Ahmedabad,Jodhpur,331.1,Mini Truck,44.9,Medium,Clear,8,8.8,9.74,4771.81,0.94,Delayed
+10512,Udaipur,Bhilwara,328.1,Mini Truck,20.6,Medium,Clear,6,8.37,9.15,4657.37,0.78,Delayed
+10513,Jaipur,Kota,412.6,Mini Truck,11.5,Medium,Clear,6,10.25,11.52,5788.19,1.27,Delayed
+10514,Udaipur,Bhilwara,150.0,Mini Truck,11.5,Low,Cloudy,4,4.05,4.53,2228.73,0.48,On Time
+10515,Udaipur,Delhi,257.1,Mini Truck,17.7,Medium,Cloudy,1,5.89,7.18,3545.7,1.29,Delayed
+10516,Ahmedabad,Jaipur,88.9,Mini Truck,11.9,Medium,Clear,7,3.24,3.72,1390.46,0.48,On Time
+10517,Delhi,Ajmer,89.3,Mini Truck,3.5,High,Clear,4,2.7,4.12,1306.36,1.42,Delayed
+10518,Kota,Jodhpur,243.4,Mini Truck,4.8,Medium,Rain,8,6.85,7.57,3494.26,0.72,On Time
+10519,Kota,Udaipur,213.9,Mini Truck,28.3,Low,Clear,8,6.19,5.94,3181.61,-0.25,On Time
+10520,Ahmedabad,Udaipur,233.7,Truck,10.8,Low,Clear,4,6.15,6.51,4118.41,0.36,On Time
+10521,Udaipur,Kota,314.2,Mini Truck,15.2,Medium,Cloudy,6,8.06,9.11,4446.08,1.05,Delayed
+10522,Jaipur,Udaipur,466.4,Van,26.6,Low,Clear,2,10.08,9.64,5512.82,-0.44,On Time
+10523,Udaipur,Delhi,230.4,Truck,10.2,Low,Rain,3,5.9,7.28,3894.27,1.38,Delayed
+10524,Ahmedabad,Jodhpur,210.9,Mini Truck,3.3,High,Clear,7,5.95,8.79,3026.93,2.84,Delayed
+10525,Kota,Bhilwara,155.1,Van,15.9,Medium,Cloudy,8,4.67,5.06,2060.0,0.39,On Time
+10526,Udaipur,Delhi,357.1,Mini Truck,18.1,Medium,Clear,8,9.38,9.99,5091.93,0.61,On Time
+10527,Kota,Kota,162.3,Van,8.1,Low,Rain,4,4.1,4.62,1999.59,0.52,On Time
+10528,Jaipur,Delhi,197.8,Van,6.2,Medium,Clear,7,5.38,6.04,2431.67,0.66,On Time
+10529,Kota,Bhilwara,318.0,Van,27.6,Low,Cloudy,4,7.34,7.56,3836.15,0.22,On Time
+10530,Kota,Jaipur,239.8,Van,20.5,Medium,Cloudy,1,5.18,5.67,2898.04,0.49,On Time
+10531,Delhi,Kota,232.8,Truck,10.4,Low,Clear,7,6.67,6.55,4049.4,-0.12,On Time
+10532,Delhi,Jaipur,142.5,Truck,5.8,High,Clear,1,3.49,5.03,2506.45,1.54,Delayed
+10533,Delhi,Ajmer,273.9,Van,22.9,Medium,Cloudy,8,7.15,8.16,3340.4,1.01,Delayed
+10534,Kota,Jaipur,600.0,Mini Truck,12.8,Medium,Hot,6,14.41,16.07,8335.73,1.66,Delayed
+10535,Ahmedabad,Ajmer,109.9,Van,7.6,Medium,Clear,1,2.47,3.16,1280.33,0.69,On Time
+10536,Kota,Ajmer,122.9,Truck,21.6,Medium,Clear,7,4.12,4.57,2261.02,0.45,On Time
+10537,Ahmedabad,Jaipur,341.9,Mini Truck,13.6,Low,Rain,5,8.5,9.61,4779.86,1.11,Delayed
+10538,Ahmedabad,Kota,260.4,Truck,18.7,Medium,Clear,7,7.32,8.2,4541.23,0.88,Delayed
+10539,Delhi,Bhilwara,449.0,Truck,21.7,Low,Hot,4,11.16,11.37,7641.74,0.21,On Time
+10540,Udaipur,Delhi,152.5,Mini Truck,3.8,High,Cloudy,1,3.57,5.39,2135.29,1.82,Delayed
+10541,Jaipur,Delhi,360.0,Van,7.1,High,Cloudy,2,7.86,9.29,4210.71,1.43,Delayed
+10542,Delhi,Bhilwara,273.9,Van,25.8,Low,Clear,5,6.61,6.37,3317.98,-0.24,On Time
+10543,Delhi,Jodhpur,135.0,Van,20.2,High,Clear,6,3.89,4.54,1749.61,0.65,On Time
+10544,Udaipur,Jodhpur,162.7,Van,27.1,Medium,Cloudy,3,3.93,4.58,1957.91,0.65,On Time
+10545,Jaipur,Ajmer,231.9,Mini Truck,9.0,Low,Hot,4,5.87,5.38,3285.76,-0.49,On Time
+10546,Kota,Ajmer,142.2,Mini Truck,14.2,High,Hot,4,3.88,5.39,2059.83,1.51,Delayed
+10547,Kota,Kota,402.0,Mini Truck,14.7,Medium,Clear,2,9.29,10.25,5564.37,0.96,Delayed
+10548,Delhi,Udaipur,333.2,Truck,19.1,Medium,Clear,3,8.29,8.31,5727.77,0.02,On Time
+10549,Jaipur,Jaipur,176.0,Mini Truck,18.8,Medium,Clear,8,5.35,5.96,2681.04,0.61,On Time
+10550,Delhi,Ajmer,211.1,Van,24.6,Low,Rain,3,4.94,5.77,2574.55,0.83,Delayed
+10551,Ahmedabad,Delhi,369.5,Truck,14.3,High,Clear,6,9.67,11.06,6366.92,1.39,Delayed
+10552,Delhi,Kota,222.1,Van,23.1,Low,Clear,6,5.71,5.49,2711.3,-0.22,On Time
+10553,Delhi,Jaipur,584.1,Van,25.4,Low,Clear,5,13.07,13.22,6833.64,0.15,On Time
+10554,Kota,Kota,301.0,Mini Truck,14.2,Medium,Clear,8,8.13,9.04,4323.21,0.91,Delayed
+10555,Kota,Jaipur,145.7,Mini Truck,11.4,Medium,Hot,4,3.96,4.96,2060.08,1.0,Delayed
+10556,Kota,Jaipur,126.6,Van,15.9,Medium,Clear,1,2.82,3.33,1433.48,0.51,On Time
+10557,Ahmedabad,Bhilwara,389.7,Van,20.4,Low,Clear,6,9.2,9.59,4669.71,0.39,On Time
+10558,Kota,Ajmer,181.0,Truck,60.0,Low,Clear,2,4.57,3.98,3237.18,-0.59,On Time
+10559,Jaipur,Kota,247.6,Mini Truck,16.4,Low,Clear,2,5.86,6.17,3489.15,0.31,On Time
+10560,Udaipur,Kota,45.0,Truck,9.3,High,Clear,2,1.41,3.1,859.46,1.69,Delayed
+10561,Jaipur,Bhilwara,232.1,Truck,2.9,Low,Clear,7,6.66,6.75,4090.89,0.09,On Time
+10562,Jaipur,Delhi,102.6,Truck,25.3,Medium,Cloudy,8,3.83,4.63,1991.99,0.8,Delayed
+10563,Kota,Delhi,101.8,Van,5.5,Medium,Clear,8,3.56,3.41,1313.61,-0.15,On Time
+10564,Udaipur,Jodhpur,422.6,Truck,60.0,High,Clear,6,10.91,13.03,7370.44,2.12,Delayed
+10565,Udaipur,Ajmer,193.3,Truck,19.8,High,Clear,6,5.58,7.46,3447.25,1.88,Delayed
+10566,Udaipur,Ajmer,188.0,Van,44.2,Low,Rain,2,4.28,4.65,2323.1,0.37,On Time
+10567,Ahmedabad,Udaipur,600.0,Mini Truck,26.2,Low,Cloudy,8,14.77,15.21,8423.45,0.44,On Time
+10568,Kota,Bhilwara,374.0,Mini Truck,13.5,Medium,Cloudy,8,9.75,10.63,5314.48,0.88,Delayed
+10569,Udaipur,Delhi,497.4,Truck,19.3,Low,Cloudy,6,12.65,12.49,8543.23,-0.16,On Time
+10570,Ahmedabad,Jaipur,430.2,Van,7.7,Medium,Cloudy,7,10.22,11.56,5138.6,1.34,Delayed
+10571,Delhi,Kota,346.5,Mini Truck,13.2,Medium,Clear,1,7.88,8.39,4753.79,0.51,On Time
+10572,Delhi,Ajmer,485.8,Truck,20.0,High,Hot,1,11.48,13.89,8171.84,2.41,Delayed
+10573,Ahmedabad,Kota,150.5,Truck,4.3,Low,Clear,5,4.4,4.64,2641.58,0.24,On Time
+10574,Ahmedabad,Kota,140.5,Van,11.9,High,Clear,8,4.37,6.3,1829.35,1.93,Delayed
+10575,Kota,Udaipur,102.1,Truck,24.6,Low,Rain,4,3.09,4.15,1863.95,1.06,Delayed
+10576,Kota,Delhi,83.4,Mini Truck,19.7,Medium,Clear,1,2.03,2.97,1241.04,0.94,Delayed
+10577,Delhi,Ajmer,244.9,Van,6.9,Medium,Hot,5,6.0,7.1,2994.73,1.1,Delayed
+10578,Udaipur,Kota,95.3,Mini Truck,31.4,Medium,Clear,3,2.66,3.03,1438.56,0.37,On Time
+10579,Delhi,Ajmer,120.8,Mini Truck,16.2,Medium,Rain,4,3.4,4.93,1772.41,1.53,Delayed
+10580,Udaipur,Jaipur,204.5,Mini Truck,8.7,High,Rain,8,5.98,8.69,3008.36,2.71,Delayed
+10581,Udaipur,Udaipur,49.6,Truck,4.2,High,Hot,1,1.33,3.45,880.29,2.12,Delayed
+10582,Kota,Jaipur,220.7,Truck,28.8,High,Hot,7,6.39,8.42,3915.39,2.03,Delayed
+10583,Jaipur,Ajmer,231.8,Mini Truck,30.9,Low,Rain,3,5.69,5.55,3327.3,-0.14,On Time
+10584,Jaipur,Jodhpur,592.9,Mini Truck,22.8,High,Cloudy,5,14.08,15.58,8252.68,1.5,Delayed
+10585,Ahmedabad,Ajmer,257.7,Van,14.9,Medium,Clear,1,5.55,6.11,3029.82,0.56,On Time
+10586,Kota,Delhi,245.2,Van,18.5,Low,Clear,8,6.55,6.05,3067.64,-0.5,On Time
+10587,Udaipur,Kota,485.7,Truck,23.9,Low,Cloudy,1,11.48,11.99,8228.58,0.51,On Time
+10588,Jaipur,Kota,202.3,Truck,10.0,Low,Hot,6,5.78,5.17,3557.95,-0.61,On Time
+10589,Udaipur,Jaipur,254.5,Van,11.1,Low,Cloudy,3,5.84,6.32,3042.53,0.48,On Time
+10590,Jaipur,Udaipur,375.8,Mini Truck,17.4,Medium,Hot,1,8.53,10.13,5222.03,1.6,Delayed
+10591,Jaipur,Jodhpur,152.2,Truck,9.7,High,Rain,2,3.9,6.11,2650.42,2.21,Delayed
+10592,Jaipur,Bhilwara,377.2,Mini Truck,10.0,Medium,Clear,7,9.64,10.31,5336.13,0.67,On Time
+10593,Kota,Kota,105.9,Van,17.9,Medium,Clear,6,3.29,4.43,1306.8,1.14,Delayed
+10594,Delhi,Delhi,323.8,Truck,28.4,High,Clear,6,8.61,9.77,5648.52,1.16,Delayed
+10595,Udaipur,Jaipur,324.9,Truck,27.8,Low,Clear,1,7.74,8.04,5560.97,0.3,On Time
+10596,Kota,Jaipur,185.3,Van,15.8,High,Cloudy,7,5.12,6.31,2353.17,1.19,Delayed
+10597,Kota,Bhilwara,208.8,Truck,14.3,Medium,Hot,6,5.94,6.39,3640.7,0.45,On Time
+10598,Kota,Delhi,512.5,Van,34.2,Medium,Rain,4,11.4,13.03,6015.18,1.63,Delayed
+10599,Kota,Udaipur,217.1,Truck,21.9,Low,Clear,3,5.59,5.58,3794.06,-0.01,On Time
+10600,Kota,Delhi,303.3,Van,5.9,Medium,Clear,4,7.04,6.97,3562.42,-0.07,On Time
+10601,Ahmedabad,Udaipur,236.4,Truck,7.6,Low,Clear,5,6.4,7.04,4142.54,0.64,On Time
+10602,Udaipur,Delhi,159.4,Mini Truck,23.3,Medium,Clear,4,4.26,4.77,2299.48,0.51,On Time
+10603,Kota,Delhi,165.4,Mini Truck,27.0,Low,Clear,7,4.94,5.17,2440.56,0.23,On Time
+10604,Udaipur,Ajmer,282.1,Mini Truck,3.5,High,Clear,2,6.63,8.85,3915.3,2.22,Delayed
+10605,Ahmedabad,Jaipur,457.8,Truck,14.0,Medium,Clear,6,11.73,12.54,7878.21,0.81,Delayed
+10606,Ahmedabad,Delhi,109.4,Truck,7.9,Low,Clear,7,3.8,4.37,2030.36,0.57,On Time
+10607,Udaipur,Bhilwara,492.2,Mini Truck,17.8,Medium,Hot,6,12.02,12.63,6910.81,0.61,On Time
+10608,Jaipur,Delhi,318.8,Mini Truck,33.6,Low,Clear,8,8.52,9.16,4583.49,0.64,On Time
+10609,Delhi,Kota,202.4,Van,5.9,Medium,Clear,2,4.58,4.91,2342.44,0.33,On Time
+10610,Jaipur,Jaipur,273.2,Van,10.0,High,Clear,6,6.77,8.01,3297.82,1.24,Delayed
+10611,Jaipur,Kota,315.9,Van,13.3,Medium,Clear,4,7.3,7.35,3728.47,0.05,On Time
+10612,Jaipur,Jaipur,124.1,Mini Truck,6.1,Low,Cloudy,8,4.2,4.42,1899.74,0.22,On Time
+10613,Kota,Kota,211.5,Mini Truck,3.5,Medium,Cloudy,8,6.14,7.22,3101.97,1.08,Delayed
+10614,Ahmedabad,Delhi,230.5,Mini Truck,8.2,Medium,Clear,5,6.02,7.07,3282.05,1.05,Delayed
+10615,Jaipur,Delhi,89.6,Van,48.9,High,Cloudy,8,3.31,4.27,1328.21,0.96,Delayed
+10616,Ahmedabad,Ajmer,351.8,Truck,12.5,Low,Clear,8,9.62,9.79,6105.37,0.17,On Time
+10617,Udaipur,Bhilwara,163.5,Mini Truck,12.6,Medium,Cloudy,1,3.81,4.8,2318.33,0.99,Delayed
+10618,Delhi,Kota,168.6,Truck,23.1,Medium,Clear,2,4.28,5.26,2867.85,0.98,Delayed
+10619,Udaipur,Udaipur,220.0,Truck,13.7,Low,Clear,4,5.84,5.49,3774.66,-0.35,On Time
+10620,Udaipur,Ajmer,290.0,Truck,35.4,Low,Rain,7,8.0,7.67,5174.9,-0.33,On Time
+10621,Kota,Kota,279.0,Van,17.5,Medium,Rain,4,6.53,8.35,3308.53,1.82,Delayed
+10622,Delhi,Kota,235.9,Truck,9.0,High,Cloudy,4,6.21,7.74,4091.31,1.53,Delayed
+10623,Udaipur,Ajmer,273.5,Mini Truck,24.0,High,Clear,1,6.26,7.89,3838.66,1.63,Delayed
+10624,Udaipur,Delhi,154.4,Van,5.6,Medium,Clear,3,3.76,4.42,1795.34,0.66,On Time
+10625,Delhi,Kota,249.9,Mini Truck,11.6,Medium,Hot,6,6.63,7.74,3510.27,1.11,Delayed
+10626,Delhi,Delhi,305.0,Mini Truck,7.4,Low,Clear,6,7.86,8.19,4357.28,0.33,On Time
+10627,Udaipur,Ajmer,166.9,Van,6.5,High,Clear,7,4.74,5.4,2063.24,0.66,On Time
+10628,Delhi,Delhi,233.3,Mini Truck,30.6,High,Clear,8,6.62,8.63,3400.89,2.01,Delayed
+10629,Udaipur,Jaipur,308.6,Mini Truck,26.8,High,Clear,5,7.76,9.18,4368.48,1.42,Delayed
+10630,Udaipur,Udaipur,219.8,Van,17.7,Medium,Clear,7,5.84,7.27,2701.2,1.43,Delayed
+10631,Kota,Jodhpur,113.1,Mini Truck,44.0,Low,Clear,3,3.05,2.84,1733.83,-0.21,On Time
+10632,Jaipur,Kota,453.6,Truck,8.5,High,Clear,6,11.63,12.82,7731.51,1.19,Delayed
+10633,Udaipur,Bhilwara,411.2,Mini Truck,23.8,Medium,Hot,5,10.04,10.97,5711.2,0.93,Delayed
+10634,Ahmedabad,Udaipur,229.2,Truck,34.9,Low,Clear,7,6.59,6.81,4128.79,0.22,On Time
+10635,Jaipur,Jodhpur,488.8,Mini Truck,16.8,Medium,Clear,5,11.76,12.34,6782.79,0.58,On Time
+10636,Jaipur,Delhi,315.7,Van,14.5,Low,Cloudy,4,7.3,7.66,3742.81,0.36,On Time
+10637,Jaipur,Kota,205.7,Van,9.9,Low,Cloudy,2,4.65,4.58,2472.64,-0.07,On Time
+10638,Kota,Delhi,156.3,Mini Truck,23.8,Medium,Clear,4,4.19,4.91,2281.07,0.72,On Time
+10639,Udaipur,Jaipur,124.4,Van,5.0,Medium,Rain,1,2.77,5.28,1509.75,2.51,Delayed
+10640,Kota,Ajmer,211.7,Mini Truck,3.6,High,Clear,8,6.14,7.8,3103.92,1.66,Delayed
+10641,Udaipur,Kota,141.0,Van,20.8,Low,Rain,6,4.02,5.02,1794.6,1.0,Delayed
+10642,Kota,Jodhpur,147.5,Truck,8.0,Low,Clear,5,4.33,3.67,2642.97,-0.66,On Time
+10643,Kota,Jodhpur,274.5,Mini Truck,8.8,Low,Clear,7,7.36,7.97,3927.92,0.61,On Time
+10644,Ahmedabad,Jaipur,106.4,Truck,7.1,Low,Rain,8,3.91,5.19,1959.62,1.28,Delayed
+10645,Kota,Jaipur,90.9,Truck,17.8,Low,Cloudy,2,2.47,2.25,1624.0,-0.22,On Time
+10646,Delhi,Kota,242.6,Mini Truck,16.4,Medium,Clear,7,6.65,7.82,3459.02,1.17,Delayed
+10647,Ahmedabad,Delhi,311.0,Truck,6.9,Medium,Clear,6,8.31,9.16,5402.54,0.85,Delayed
+10648,Kota,Bhilwara,284.0,Mini Truck,15.9,Medium,Clear,5,7.21,7.93,4049.4,0.72,On Time
+10649,Jaipur,Jodhpur,92.2,Truck,17.0,High,Cloudy,5,3.04,5.22,1703.97,2.18,Delayed
+10650,Delhi,Jodhpur,155.0,Mini Truck,12.5,Medium,Clear,4,4.16,4.63,2166.61,0.47,On Time
+10651,Delhi,Jaipur,165.4,Mini Truck,27.7,Low,Clear,2,4.04,3.71,2408.59,-0.33,On Time
+10652,Delhi,Udaipur,95.3,Van,13.4,Low,Clear,2,2.35,2.44,1192.17,0.09,On Time
+10653,Ahmedabad,Jaipur,234.0,Mini Truck,19.9,High,Cloudy,6,6.28,8.12,3373.06,1.84,Delayed
+10654,Kota,Bhilwara,257.4,Mini Truck,13.8,Medium,Rain,5,6.62,8.55,3650.31,1.93,Delayed
+10655,Kota,Delhi,207.7,Truck,16.7,High,Rain,8,6.27,8.5,3686.65,2.23,Delayed
+10656,Jaipur,Delhi,94.5,Mini Truck,13.5,High,Clear,2,2.46,3.58,1354.27,1.12,Delayed
+10657,Jaipur,Udaipur,584.5,Van,7.3,High,Hot,2,12.54,15.48,6839.42,2.94,Delayed
+10658,Delhi,Jodhpur,146.7,Truck,11.2,High,Cloudy,7,4.67,5.78,2627.35,1.11,Delayed
+10659,Jaipur,Jaipur,371.7,Truck,28.7,Medium,Rain,6,9.72,11.24,6435.84,1.52,Delayed
+10660,Ahmedabad,Delhi,457.4,Van,34.1,Low,Clear,4,10.25,10.6,5448.34,0.35,On Time
+10661,Kota,Bhilwara,184.3,Truck,19.8,High,Clear,7,5.55,7.57,3294.25,2.02,Delayed
+10662,Delhi,Kota,284.4,Truck,17.5,Medium,Rain,7,7.87,9.11,4952.3,1.24,Delayed
+10663,Jaipur,Ajmer,107.6,Truck,5.2,Low,Clear,3,3.04,2.2,1880.2,-0.84,On Time
+10664,Ahmedabad,Ajmer,188.4,Truck,17.3,Medium,Clear,1,4.56,4.99,3240.66,0.43,On Time
+10665,Ahmedabad,Ajmer,289.4,Van,6.5,Medium,Rain,3,6.57,8.46,3392.5,1.89,Delayed
+10666,Jaipur,Jodhpur,231.4,Van,11.8,High,Rain,2,5.18,7.77,2739.2,2.59,Delayed
+10667,Kota,Jaipur,330.1,Truck,17.4,Medium,Hot,5,8.58,9.88,5765.02,1.3,Delayed
+10668,Jaipur,Udaipur,176.9,Truck,9.4,Low,Cloudy,1,4.29,4.71,3014.27,0.42,On Time
+10669,Delhi,Delhi,371.7,Van,16.4,High,Clear,1,7.92,10.02,4321.93,2.1,Delayed
+10670,Jaipur,Kota,134.6,Van,11.3,High,Clear,5,3.7,4.85,1655.09,1.15,Delayed
+10671,Ahmedabad,Bhilwara,286.4,Van,16.7,Medium,Clear,1,6.15,6.31,3325.72,0.16,On Time
+10672,Jaipur,Kota,167.7,Truck,47.9,Low,Clear,5,4.8,4.97,3099.27,0.17,On Time
+10673,Kota,Bhilwara,87.4,Truck,25.1,Medium,Clear,1,2.21,2.44,1585.84,0.23,On Time
+10674,Udaipur,Jodhpur,327.0,Mini Truck,12.0,Medium,Clear,7,8.53,8.66,4601.21,0.13,On Time
+10675,Jaipur,Jaipur,153.1,Van,40.7,Low,Cloudy,8,4.63,5.28,2049.46,0.65,On Time
+10676,Kota,Ajmer,129.0,Truck,24.6,Low,Rain,6,4.08,4.99,2401.11,0.91,Delayed
+10677,Kota,Jaipur,419.2,Van,9.5,Medium,Hot,6,9.81,10.82,4995.14,1.01,Delayed
+10678,Ahmedabad,Jodhpur,348.3,Truck,8.8,Medium,Rain,3,8.64,10.16,5921.35,1.52,Delayed
+10679,Kota,Udaipur,126.1,Van,25.7,Medium,Rain,7,3.89,5.34,1750.57,1.45,Delayed
+10680,Kota,Udaipur,116.2,Truck,15.7,Low,Cloudy,1,2.88,3.53,1945.15,0.65,On Time
+10681,Kota,Jodhpur,178.8,Mini Truck,6.4,Medium,Hot,4,4.69,5.01,2636.12,0.32,On Time
+10682,Kota,Bhilwara,120.7,Mini Truck,14.4,Medium,Cloudy,5,3.58,3.68,1794.21,0.1,On Time
+10683,Delhi,Delhi,467.3,Van,10.6,Low,Rain,7,11.0,11.38,5621.92,0.38,On Time
+10684,Delhi,Delhi,84.6,Truck,8.0,Low,Hot,1,2.15,2.58,1420.46,0.43,On Time
+10685,Ahmedabad,Bhilwara,541.9,Truck,12.7,Medium,Hot,6,13.68,15.49,9241.0,1.81,Delayed
+10686,Jaipur,Udaipur,280.7,Van,15.1,High,Clear,6,6.93,8.82,3372.53,1.89,Delayed
+10687,Kota,Udaipur,308.0,Truck,37.3,Medium,Clear,5,8.06,9.03,5370.38,0.97,Delayed
+10688,Jaipur,Udaipur,243.2,Van,27.5,Low,Clear,4,5.79,5.75,2973.73,-0.04,On Time
+10689,Jaipur,Jaipur,91.7,Truck,14.1,Low,Clear,1,2.31,1.71,1633.74,-0.6,On Time
+10690,Ahmedabad,Udaipur,343.7,Van,3.5,High,Clear,1,7.34,9.07,3940.23,1.73,Delayed
+10691,Kota,Kota,234.1,Truck,8.3,Low,Clear,4,6.16,7.07,4046.29,0.91,Delayed
+10692,Kota,Ajmer,134.3,Van,13.9,Medium,Clear,4,3.52,4.11,1703.85,0.59,On Time
+10693,Udaipur,Udaipur,393.9,Truck,5.4,Medium,Clear,4,9.88,10.33,6756.36,0.45,On Time
+10694,Jaipur,Bhilwara,378.4,Mini Truck,11.4,Low,Cloudy,6,9.49,9.48,5309.1,-0.01,On Time
+10695,Jaipur,Ajmer,394.9,Truck,21.4,High,Clear,5,10.08,11.85,6780.7,1.77,Delayed
+10696,Delhi,Jaipur,365.9,Van,20.6,Medium,Cloudy,7,8.88,9.73,4426.36,0.85,Delayed
+10697,Udaipur,Bhilwara,171.3,Mini Truck,8.8,Medium,Cloudy,8,5.25,6.46,2541.88,1.21,Delayed
+10698,Delhi,Ajmer,303.7,Truck,13.2,Low,Cloudy,4,7.78,7.86,5267.43,0.08,On Time
+10699,Delhi,Bhilwara,389.6,Mini Truck,13.1,Low,Hot,5,9.56,9.75,5417.13,0.19,On Time
+10700,Delhi,Jaipur,368.2,Truck,30.8,Medium,Clear,3,9.1,9.9,6298.16,0.8,Delayed
+10701,Ahmedabad,Kota,56.8,Mini Truck,19.6,Medium,Clear,1,1.44,1.9,797.76,0.46,On Time
+10702,Ahmedabad,Jaipur,221.0,Van,8.2,Low,Clear,1,4.78,5.56,2609.2,0.78,Delayed
+10703,Delhi,Jaipur,154.8,Truck,15.1,Low,Clear,8,5.04,5.41,2851.43,0.37,On Time
+10704,Udaipur,Bhilwara,464.2,Truck,16.8,Low,Cloudy,8,12.24,11.85,7965.15,-0.39,On Time
+10705,Jaipur,Jodhpur,222.7,Van,18.7,High,Clear,2,5.0,6.16,2664.17,1.16,Delayed
+10706,Udaipur,Delhi,291.0,Mini Truck,10.5,Medium,Clear,3,7.01,7.96,4099.37,0.95,Delayed
+10707,Kota,Udaipur,254.6,Van,23.6,High,Clear,7,6.56,8.14,3178.73,1.58,Delayed
+10708,Ahmedabad,Udaipur,439.1,Van,10.7,Low,Clear,8,10.59,10.73,5300.33,0.14,On Time
+10709,Jaipur,Kota,545.8,Mini Truck,31.2,High,Cloudy,4,12.85,14.36,7571.4,1.51,Delayed
+10710,Jaipur,Kota,234.9,Van,18.6,Low,Cloudy,4,5.61,5.91,2872.67,0.3,On Time
+10711,Kota,Udaipur,261.3,Truck,15.4,Medium,Clear,7,7.34,7.96,4574.29,0.62,On Time
+10712,Kota,Delhi,452.5,Truck,27.6,High,Clear,6,11.6,13.35,7837.7,1.75,Delayed
+10713,Delhi,Udaipur,122.0,Truck,7.2,Low,Clear,3,3.38,3.73,2148.6,0.35,On Time
+10714,Ahmedabad,Jodhpur,129.9,Van,30.7,Medium,Clear,4,3.43,4.85,1633.48,1.42,Delayed
+10715,Ahmedabad,Delhi,160.5,Truck,27.4,Low,Rain,8,5.17,5.74,2947.92,0.57,On Time
+10716,Udaipur,Kota,340.2,Truck,23.1,Low,Clear,2,8.27,8.26,5843.45,-0.01,On Time
+10717,Delhi,Ajmer,238.7,Truck,9.3,Medium,Cloudy,5,6.45,6.7,4124.76,0.25,On Time
+10718,Delhi,Bhilwara,161.4,Truck,24.4,Medium,Rain,1,3.93,6.25,2796.59,2.32,Delayed
+10719,Delhi,Jodhpur,425.4,Truck,32.0,Medium,Clear,3,10.43,10.24,7242.74,-0.19,On Time
+10720,Delhi,Jodhpur,95.9,Truck,17.2,Medium,Clear,1,2.41,3.87,1693.62,1.46,Delayed
+10721,Ahmedabad,Kota,157.3,Van,18.6,Medium,Hot,5,4.18,5.22,1969.49,1.04,Delayed
+10722,Ahmedabad,Kota,212.0,Truck,9.7,Low,Rain,3,5.47,6.46,3682.87,0.99,Delayed
+10723,Delhi,Jaipur,544.4,Truck,19.3,Low,Clear,8,14.1,14.03,9386.47,-0.07,On Time
+10724,Udaipur,Jodhpur,159.8,Mini Truck,8.1,High,Rain,5,4.45,6.76,2296.46,2.31,Delayed
+10725,Jaipur,Jaipur,303.9,Van,23.9,Low,Rain,4,7.05,8.11,3625.78,1.06,Delayed
+10726,Jaipur,Jaipur,211.8,Van,20.8,Medium,Clear,7,5.67,5.63,2612.54,-0.04,On Time
+10727,Udaipur,Bhilwara,117.1,Van,10.4,Low,Rain,4,3.16,3.67,1447.71,0.51,On Time
+10728,Delhi,Jaipur,300.8,Van,26.0,Medium,Clear,8,7.71,8.03,3743.69,0.32,On Time
+10729,Ahmedabad,Delhi,196.1,Truck,14.6,Medium,Clear,7,5.82,6.72,3422.05,0.9,Delayed
+10730,Jaipur,Udaipur,172.0,Truck,16.8,Low,Hot,4,4.72,5.02,2981.67,0.3,On Time
+10731,Kota,Ajmer,107.4,Mini Truck,16.3,Low,Rain,5,3.29,4.37,1645.19,1.08,Delayed
+10732,Kota,Kota,239.6,Mini Truck,14.6,Medium,Clear,5,6.22,6.99,3462.09,0.77,Delayed
+10733,Udaipur,Delhi,478.6,Van,10.4,Medium,Clear,5,10.87,12.05,5628.38,1.18,Delayed
+10734,Delhi,Ajmer,163.9,Mini Truck,19.3,Low,Cloudy,1,3.82,3.59,2268.92,-0.23,On Time
+10735,Jaipur,Jodhpur,122.7,Mini Truck,25.1,Medium,Cloudy,8,4.17,5.0,1960.35,0.83,Delayed
+10736,Delhi,Jodhpur,87.7,Van,23.8,Low,Cloudy,5,2.73,3.33,1175.73,0.6,On Time
+10737,Jaipur,Jodhpur,83.2,Van,7.4,High,Hot,4,2.45,4.66,1035.41,2.21,Delayed
+10738,Udaipur,Delhi,214.7,Mini Truck,14.6,Medium,Rain,2,5.13,5.96,3046.26,0.83,Delayed
+10739,Udaipur,Delhi,240.9,Truck,9.0,Low,Clear,8,7.04,6.58,4262.34,-0.46,On Time
+10740,Kota,Kota,282.5,Mini Truck,17.6,Medium,Clear,5,7.18,7.84,4034.15,0.66,On Time
+10741,Delhi,Udaipur,220.0,Mini Truck,5.4,Medium,Clear,2,5.25,5.84,3030.47,0.59,On Time
+10742,Kota,Jaipur,253.6,Truck,5.5,Low,Cloudy,7,7.16,7.23,4440.8,0.07,On Time
+10743,Delhi,Jodhpur,475.4,Truck,10.3,Medium,Cloudy,4,11.78,12.94,8143.06,1.16,Delayed
+10744,Kota,Bhilwara,425.0,Van,31.6,Low,Clear,5,9.75,9.88,5117.02,0.13,On Time
+10745,Ahmedabad,Udaipur,414.0,Van,16.8,Low,Clear,1,8.8,8.96,4876.22,0.16,On Time
+10746,Ahmedabad,Bhilwara,381.6,Mini Truck,9.8,Low,Clear,1,8.66,8.96,5303.47,0.3,On Time
+10747,Ahmedabad,Kota,321.5,Truck,20.7,Medium,Clear,7,8.74,9.92,5619.85,1.18,Delayed
+10748,Ahmedabad,Kota,94.7,Van,18.4,Low,Clear,2,2.33,0.95,1162.17,-1.38,On Time
+10749,Jaipur,Kota,204.8,Mini Truck,34.2,Medium,Clear,6,5.63,6.16,3040.3,0.53,On Time
+10750,Ahmedabad,Ajmer,265.9,Truck,18.5,Medium,Clear,1,6.36,6.66,4494.82,0.3,On Time
+10751,Udaipur,Bhilwara,141.7,Mini Truck,12.8,Medium,Clear,8,4.59,5.5,2133.14,0.91,Delayed
+10752,Udaipur,Udaipur,517.8,Van,24.4,Medium,Cloudy,1,10.97,11.56,6081.73,0.59,On Time
+10753,Jaipur,Udaipur,192.6,Van,7.4,High,Clear,1,4.19,5.72,2151.68,1.53,Delayed
+10754,Ahmedabad,Delhi,89.8,Truck,13.5,Medium,Rain,4,2.81,4.69,1637.88,1.88,Delayed
+10755,Ahmedabad,Delhi,186.4,Mini Truck,11.2,Medium,Cloudy,1,4.32,4.85,2603.73,0.53,On Time
+10756,Ahmedabad,Jodhpur,286.0,Truck,8.6,Low,Cloudy,3,7.19,7.45,4851.68,0.26,On Time
+10757,Kota,Delhi,141.7,Van,10.4,High,Cloudy,5,3.85,6.15,1783.0,2.3,Delayed
+10758,Delhi,Kota,213.2,Van,12.6,Low,Clear,7,5.7,6.07,2653.35,0.37,On Time
+10759,Kota,Udaipur,90.8,Mini Truck,18.0,Low,Clear,1,2.2,1.49,1305.81,-0.71,On Time
+10760,Delhi,Bhilwara,180.9,Mini Truck,3.5,Medium,Hot,6,5.1,5.97,2651.32,0.87,Delayed
+10761,Ahmedabad,Kota,231.9,Mini Truck,14.9,Low,Rain,8,6.59,7.55,3407.96,0.96,Delayed
+10762,Ahmedabad,Ajmer,219.6,Truck,17.7,Low,Hot,6,6.19,6.74,3886.16,0.55,On Time
+10763,Kota,Delhi,346.1,Mini Truck,26.3,Medium,Cloudy,1,7.87,8.56,4773.54,0.69,On Time
+10764,Kota,Kota,132.9,Mini Truck,7.7,Medium,Clear,1,3.13,3.54,1853.96,0.41,On Time
+10765,Delhi,Kota,277.3,Van,22.9,Medium,Clear,3,6.32,7.05,3365.23,0.73,On Time
+10766,Udaipur,Ajmer,307.9,Van,10.3,High,Cloudy,1,6.59,7.7,3595.45,1.11,Delayed
+10767,Delhi,Jaipur,156.1,Mini Truck,8.4,Low,Clear,1,3.65,4.14,2227.32,0.49,On Time
+10768,Kota,Udaipur,141.2,Mini Truck,11.4,Low,Clear,5,4.04,4.88,2088.16,0.84,Delayed
+10769,Kota,Bhilwara,519.9,Van,12.6,Medium,Rain,6,11.91,13.59,6226.92,1.68,Delayed
+10770,Jaipur,Jodhpur,195.4,Mini Truck,8.2,Low,Clear,3,4.88,4.78,2715.53,-0.1,On Time
+10771,Kota,Jaipur,284.2,Truck,32.5,Medium,Clear,6,7.69,8.81,4979.15,1.12,Delayed
+10772,Jaipur,Delhi,290.7,Truck,15.8,Low,Rain,3,7.3,8.45,4985.58,1.15,Delayed
+10773,Udaipur,Kota,102.8,Truck,27.5,Medium,Rain,6,3.47,4.85,1946.26,1.38,Delayed
+10774,Delhi,Ajmer,256.4,Mini Truck,18.4,Medium,Clear,1,5.88,6.56,3540.17,0.68,On Time
+10775,Delhi,Ajmer,249.5,Van,44.3,Medium,Rain,6,6.28,7.51,3063.78,1.23,Delayed
+10776,Jaipur,Udaipur,521.5,Mini Truck,31.4,Medium,Rain,6,12.67,14.24,7339.07,1.57,Delayed
+10777,Delhi,Jaipur,249.4,Mini Truck,12.2,Medium,Clear,3,6.08,6.91,3486.76,0.83,Delayed
+10778,Kota,Jodhpur,339.3,Van,10.5,Low,Clear,7,8.33,7.98,4081.64,-0.35,On Time
+10779,Ahmedabad,Udaipur,346.6,Van,20.0,Low,Clear,2,7.58,7.1,4070.98,-0.48,On Time
+10780,Jaipur,Kota,198.8,Van,19.3,Low,Clear,3,4.68,4.08,2412.8,-0.6,On Time
+10781,Delhi,Udaipur,600.0,Truck,13.6,Medium,Clear,3,14.49,15.38,10140.95,0.89,Delayed
+10782,Jaipur,Bhilwara,151.4,Mini Truck,39.3,Medium,Hot,3,3.9,4.89,2220.13,0.99,Delayed
+10783,Jaipur,Ajmer,90.2,Van,35.4,Medium,Rain,4,2.6,4.06,1185.77,1.46,Delayed
+10784,Ahmedabad,Ajmer,176.9,Mini Truck,17.2,Low,Rain,7,5.19,6.2,2588.64,1.01,Delayed
+10785,Kota,Delhi,81.9,Truck,33.0,Medium,Hot,4,2.62,3.21,1555.5,0.59,On Time
+10786,Jaipur,Delhi,156.8,Truck,10.8,High,Rain,4,4.37,6.19,2770.96,1.82,Delayed
+10787,Delhi,Jodhpur,230.5,Van,20.0,Low,Clear,3,5.34,5.45,2765.56,0.11,On Time
+10788,Udaipur,Kota,262.5,Van,15.1,Low,Clear,2,5.83,5.05,3145.99,-0.78,On Time
+10789,Jaipur,Bhilwara,187.4,Mini Truck,12.2,Low,Cloudy,3,4.7,4.68,2619.25,-0.02,On Time
+10790,Jaipur,Jaipur,156.0,Van,7.6,Medium,Clear,1,3.43,5.24,1788.84,1.81,Delayed
+10791,Ahmedabad,Udaipur,175.6,Mini Truck,22.3,Medium,Clear,2,4.26,4.35,2447.69,0.09,On Time
+10792,Kota,Jodhpur,304.1,Van,7.3,Low,Cloudy,4,7.06,6.97,3580.24,-0.09,On Time
+10793,Udaipur,Kota,127.8,Mini Truck,23.9,Medium,Hot,8,4.28,4.32,1931.88,0.04,On Time
+10794,Delhi,Delhi,156.4,Mini Truck,15.0,Low,Clear,6,4.56,4.45,2373.6,-0.11,On Time
+10795,Udaipur,Udaipur,273.2,Mini Truck,52.6,Medium,Rain,6,7.15,9.53,3933.16,2.38,Delayed
+10796,Delhi,Delhi,242.4,Mini Truck,22.8,Medium,Clear,7,6.65,7.56,3550.29,0.91,Delayed
+10797,Kota,Udaipur,87.8,Truck,19.8,Medium,Cloudy,8,3.48,4.0,1697.68,0.52,On Time
+10798,Delhi,Jaipur,387.9,Mini Truck,19.6,Low,Clear,5,9.52,10.5,5459.74,0.98,Delayed
+10799,Ahmedabad,Kota,178.1,Van,5.3,High,Rain,7,4.97,6.49,2192.07,1.52,Delayed
+10800,Ahmedabad,Udaipur,120.0,Truck,3.8,Medium,Clear,2,3.15,4.05,2080.51,0.9,Delayed
+10801,Ahmedabad,Bhilwara,105.2,Truck,12.7,Low,Cloudy,4,3.17,3.3,1853.85,0.13,On Time
+10802,Ahmedabad,Jodhpur,390.8,Mini Truck,18.0,Low,Clear,2,9.04,8.93,5453.92,-0.11,On Time
+10803,Udaipur,Ajmer,65.7,Truck,29.5,Medium,Clear,2,1.89,2.95,1253.75,1.06,Delayed
+10804,Kota,Bhilwara,285.6,Mini Truck,11.4,High,Clear,6,7.43,8.4,4053.08,0.97,Delayed
+10805,Delhi,Bhilwara,352.7,Van,60.0,High,Clear,3,7.89,9.53,4281.26,1.64,Delayed
+10806,Delhi,Jodhpur,186.0,Mini Truck,9.4,Medium,Clear,1,4.31,5.09,2598.61,0.78,Delayed
+10807,Ahmedabad,Ajmer,495.0,Truck,13.4,High,Clear,5,12.41,13.52,8471.52,1.11,Delayed
+10808,Ahmedabad,Bhilwara,131.8,Van,15.7,Low,Cloudy,4,3.47,4.45,1683.82,0.98,Delayed
+10809,Jaipur,Udaipur,302.9,Mini Truck,15.6,Low,Cloudy,2,7.09,7.11,4250.88,0.02,On Time
+10810,Kota,Udaipur,244.0,Van,7.7,High,Clear,5,5.98,7.42,2945.67,1.44,Delayed
+10811,Udaipur,Udaipur,528.8,Van,20.3,Medium,Cloudy,2,11.38,11.72,6183.66,0.34,On Time
+10812,Delhi,Ajmer,197.5,Truck,17.3,Medium,Clear,8,6.03,6.66,3563.93,0.63,On Time
+10813,Jaipur,Bhilwara,286.7,Van,22.0,Medium,Clear,6,7.05,8.8,3490.71,1.75,Delayed
+10814,Jaipur,Ajmer,243.2,Truck,3.9,High,Clear,1,5.84,7.23,4121.1,1.39,Delayed
+10815,Delhi,Udaipur,95.2,Van,17.7,Medium,Cloudy,6,3.06,4.09,1292.6,1.03,Delayed
+10816,Udaipur,Jodhpur,212.6,Mini Truck,3.0,High,Clear,5,5.62,7.55,3053.33,1.93,Delayed
+10817,Jaipur,Bhilwara,165.8,Van,14.1,Medium,Hot,4,4.17,5.09,2045.96,0.92,Delayed
+10818,Jaipur,Bhilwara,244.1,Mini Truck,19.9,Low,Clear,2,5.78,5.6,3403.17,-0.18,On Time
+10819,Kota,Delhi,289.6,Mini Truck,24.6,High,Clear,1,6.62,8.33,4096.98,1.71,Delayed
+10820,Udaipur,Delhi,443.4,Van,12.9,Low,Clear,8,10.68,10.57,5381.79,-0.11,On Time
+10821,Jaipur,Jaipur,58.8,Mini Truck,11.0,High,Rain,6,2.39,4.54,925.39,2.15,Delayed
+10822,Udaipur,Kota,230.1,Van,6.4,Medium,Cloudy,8,6.23,7.45,2817.1,1.22,Delayed
+10823,Delhi,Delhi,109.5,Van,3.9,Medium,Cloudy,5,3.18,3.95,1356.57,0.77,Delayed
+10824,Ahmedabad,Ajmer,305.0,Mini Truck,16.5,Medium,Hot,6,7.86,9.41,4364.55,1.55,Delayed
+10825,Jaipur,Delhi,600.0,Mini Truck,2.4,Low,Hot,2,13.69,13.95,8303.99,0.26,On Time
+10826,Kota,Jaipur,191.6,Truck,16.2,Low,Cloudy,2,4.82,4.33,3284.04,-0.49,On Time
+10827,Delhi,Bhilwara,148.1,Mini Truck,7.4,High,Clear,8,4.73,4.69,2221.25,-0.04,On Time
+10828,Udaipur,Jaipur,177.5,Truck,3.5,High,Rain,4,4.85,6.32,3052.06,1.47,Delayed
+10829,Delhi,Bhilwara,110.3,Mini Truck,9.8,Low,Clear,1,2.63,1.88,1610.62,-0.75,On Time
+10830,Jaipur,Jodhpur,48.5,Van,9.7,High,Cloudy,3,1.55,3.27,678.32,1.72,Delayed
+10831,Udaipur,Jodhpur,263.5,Mini Truck,6.3,High,Cloudy,6,6.94,8.1,3715.03,1.16,Delayed
+10832,Ahmedabad,Bhilwara,224.5,Van,12.8,Medium,Rain,2,5.04,5.65,2594.11,0.61,On Time
+10833,Delhi,Kota,150.2,Van,17.3,Low,Clear,5,4.03,3.97,1922.65,-0.06,On Time
+10834,Jaipur,Delhi,123.5,Van,8.3,High,Cloudy,6,3.65,4.76,1558.31,1.11,Delayed
+10835,Kota,Ajmer,351.2,Truck,9.1,Medium,Hot,4,8.89,10.1,6039.5,1.21,Delayed
+10836,Udaipur,Ajmer,424.4,Mini Truck,12.5,High,Clear,4,10.15,11.85,5921.34,1.7,Delayed
+10837,Delhi,Udaipur,246.6,Van,18.8,High,Clear,2,5.5,7.24,2873.15,1.74,Delayed
+10838,Delhi,Bhilwara,67.9,Van,23.3,High,Cloudy,2,1.77,2.22,855.93,0.45,On Time
+10839,Ahmedabad,Ajmer,208.0,Truck,48.7,Medium,Hot,8,6.28,7.3,3774.88,1.02,Delayed
+10840,Ahmedabad,Kota,273.7,Mini Truck,1.6,Low,Clear,2,6.44,6.39,3760.19,-0.05,On Time
+10841,Kota,Bhilwara,195.7,Mini Truck,12.1,Low,Clear,8,5.79,5.24,2880.41,-0.55,On Time
+10842,Kota,Kota,208.2,Truck,27.8,Low,Clear,7,6.1,5.14,3732.53,-0.96,On Time
+10843,Jaipur,Ajmer,156.1,Truck,33.2,Low,Clear,3,4.17,4.12,2830.79,-0.05,On Time
+10844,Jaipur,Ajmer,198.1,Mini Truck,34.1,Medium,Hot,2,4.76,6.24,2846.43,1.48,Delayed
+10845,Kota,Udaipur,368.8,Truck,37.0,Medium,Cloudy,6,9.66,9.3,6468.83,-0.36,On Time
+10846,Kota,Ajmer,254.4,Mini Truck,41.1,High,Cloudy,6,6.73,7.96,3686.51,1.23,Delayed
+10847,Udaipur,Bhilwara,169.0,Mini Truck,16.4,Low,Clear,8,5.2,5.26,2562.99,0.06,On Time
+10848,Ahmedabad,Jodhpur,196.0,Van,37.3,Medium,Rain,7,5.34,7.35,2493.98,2.01,Delayed
+10849,Jaipur,Bhilwara,444.3,Van,6.7,Low,Clear,7,10.52,10.38,5269.65,-0.14,On Time
+10850,Ahmedabad,Bhilwara,124.9,Mini Truck,14.1,Low,Clear,1,2.96,3.83,1727.15,0.87,Delayed
+10851,Ahmedabad,Udaipur,157.0,Mini Truck,13.4,Low,Clear,5,4.39,3.58,2192.74,-0.81,On Time
+10852,Kota,Udaipur,208.0,Mini Truck,10.9,Medium,Clear,2,4.98,4.77,2939.25,-0.21,On Time
+10853,Udaipur,Ajmer,163.5,Mini Truck,7.0,Low,Clear,8,5.07,5.53,2379.42,0.46,On Time
+10854,Delhi,Jaipur,433.1,Mini Truck,30.4,Medium,Clear,6,10.7,10.34,6166.06,-0.36,On Time
+10855,Udaipur,Jaipur,373.5,Mini Truck,15.0,Low,Clear,7,9.56,9.77,5282.18,0.21,On Time
+10856,Udaipur,Udaipur,205.5,Truck,15.7,High,Clear,6,5.86,7.23,3567.66,1.37,Delayed
+10857,Ahmedabad,Ajmer,600.0,Mini Truck,7.1,High,Rain,6,14.41,16.3,8299.92,1.89,Delayed
+10858,Udaipur,Jaipur,264.7,Truck,20.9,High,Clear,7,7.42,8.73,4657.79,1.31,Delayed
+10859,Jaipur,Ajmer,478.4,Truck,31.2,High,Hot,3,11.67,12.89,8112.2,1.22,Delayed
+10860,Ahmedabad,Ajmer,454.4,Mini Truck,19.7,High,Clear,7,11.36,12.72,6424.49,1.36,Delayed
+10861,Jaipur,Ajmer,285.2,Mini Truck,8.0,High,Rain,7,7.6,9.91,4013.11,2.31,Delayed
+10862,Delhi,Delhi,120.0,Truck,32.2,Medium,Rain,5,3.69,5.0,2177.42,1.31,Delayed
+10863,Ahmedabad,Bhilwara,237.1,Truck,3.5,Low,Hot,8,6.95,6.99,4174.64,0.04,On Time
+10864,Delhi,Ajmer,154.1,Mini Truck,23.7,Low,Rain,8,4.86,5.77,2352.71,0.91,Delayed
+10865,Ahmedabad,Delhi,302.0,Mini Truck,7.9,Low,Clear,7,7.97,8.72,4323.18,0.75,On Time
+10866,Kota,Udaipur,276.8,Truck,36.6,Medium,Clear,4,7.16,7.74,4780.35,0.58,On Time
+10867,Udaipur,Jaipur,257.9,Truck,48.3,Medium,Clear,8,7.44,8.51,4613.84,1.07,Delayed
+10868,Kota,Bhilwara,342.2,Truck,9.8,High,Clear,8,9.4,10.47,5986.73,1.07,Delayed
+10869,Delhi,Jodhpur,270.5,Van,12.4,High,Clear,8,7.08,7.98,3319.25,0.9,Delayed
+10870,Udaipur,Jaipur,218.9,Truck,22.1,Medium,Rain,7,6.35,8.05,3894.86,1.7,Delayed
+10871,Ahmedabad,Bhilwara,114.9,Van,10.8,Medium,Cloudy,6,3.47,4.16,1490.7,0.69,On Time
+10872,Udaipur,Jodhpur,162.3,Mini Truck,4.4,High,Cloudy,2,3.97,6.08,2315.5,2.11,Delayed
+10873,Jaipur,Jaipur,130.2,Mini Truck,38.4,Low,Hot,6,3.97,4.87,1985.08,0.9,Delayed
+10874,Udaipur,Bhilwara,353.3,Truck,11.3,Medium,Cloudy,5,9.12,10.3,6023.91,1.18,Delayed
+10875,Jaipur,Jaipur,211.4,Mini Truck,19.6,Low,Cloudy,4,5.42,5.89,2986.77,0.47,On Time
+10876,Udaipur,Jaipur,258.5,Mini Truck,9.5,Medium,Rain,7,7.0,6.96,3711.93,-0.04,On Time
+10877,Jaipur,Jodhpur,176.9,Mini Truck,18.2,Low,Clear,3,4.47,4.67,2469.43,0.2,On Time
+10878,Delhi,Jaipur,398.8,Mini Truck,17.9,High,Clear,1,9.04,10.93,5489.53,1.89,Delayed
+10879,Kota,Jaipur,312.4,Van,20.9,Medium,Hot,7,7.77,8.2,3815.02,0.43,On Time
+10880,Ahmedabad,Jodhpur,242.3,Van,10.9,Low,Hot,2,5.41,5.71,2841.89,0.3,On Time
+10881,Udaipur,Udaipur,223.6,Truck,7.4,Low,Rain,1,5.38,5.71,3807.68,0.33,On Time
+10882,Kota,Ajmer,145.7,Truck,9.8,Medium,Clear,3,3.93,5.09,2562.63,1.16,Delayed
+10883,Ahmedabad,Kota,164.2,Truck,54.5,High,Rain,5,4.72,6.59,3015.28,1.87,Delayed
+10884,Ahmedabad,Delhi,95.3,Mini Truck,24.9,Medium,Clear,5,3.02,3.36,1416.44,0.34,On Time
+10885,Jaipur,Kota,315.6,Mini Truck,16.6,Medium,Clear,3,7.55,8.04,4416.55,0.49,On Time
+10886,Delhi,Kota,330.6,Van,6.2,Low,Clear,6,7.97,8.98,3970.82,1.01,Delayed
+10887,Delhi,Bhilwara,338.2,Van,21.5,Medium,Clear,3,7.59,8.74,4010.48,1.15,Delayed
+10888,Kota,Ajmer,134.8,Truck,45.5,Medium,Clear,8,4.57,6.0,2560.81,1.43,Delayed
+10889,Delhi,Bhilwara,462.2,Van,18.4,Medium,Clear,8,11.07,10.95,5568.28,-0.12,On Time
+10890,Udaipur,Ajmer,192.0,Van,22.6,Low,Clear,7,5.26,4.69,2422.66,-0.57,On Time
+10891,Delhi,Jodhpur,296.4,Van,8.0,Medium,Clear,2,6.54,7.84,3451.47,1.3,Delayed
+10892,Kota,Jodhpur,113.6,Van,16.6,Medium,Rain,8,3.81,4.52,1526.99,0.71,On Time
+10893,Delhi,Ajmer,409.2,Van,44.3,High,Cloudy,4,9.25,10.55,4985.92,1.3,Delayed
+10894,Udaipur,Jaipur,323.9,Truck,13.2,High,Clear,7,8.79,11.21,5613.47,2.42,Delayed
+10895,Jaipur,Udaipur,196.3,Truck,33.4,Medium,Clear,7,5.83,6.1,3568.66,0.27,On Time
+10896,Kota,Jaipur,177.9,Van,7.7,Medium,Cloudy,7,4.97,4.95,2228.58,-0.02,On Time
+10897,Jaipur,Udaipur,319.8,Truck,20.2,Low,Clear,1,7.62,7.64,5415.09,0.02,On Time
+10898,Jaipur,Bhilwara,408.6,Mini Truck,14.0,High,Clear,1,9.26,9.96,5622.61,0.7,On Time
+10899,Jaipur,Udaipur,146.2,Van,32.6,Medium,Cloudy,5,3.95,5.31,1876.26,1.36,Delayed
+10900,Ahmedabad,Bhilwara,218.3,Mini Truck,37.2,Low,Hot,7,6.11,6.01,3246.01,-0.1,On Time
+10901,Ahmedabad,Jodhpur,174.4,Truck,18.6,Medium,Clear,6,5.14,5.35,3189.86,0.21,On Time
+10902,Jaipur,Kota,418.7,Truck,19.4,High,Clear,8,11.18,12.69,7258.63,1.51,Delayed
+10903,Kota,Jodhpur,165.4,Mini Truck,52.7,Low,Clear,5,4.58,4.4,2451.11,-0.18,On Time
+10904,Udaipur,Jodhpur,116.0,Truck,30.5,Medium,Cloudy,2,3.06,3.97,2008.09,0.91,Delayed
+10905,Udaipur,Kota,327.3,Van,8.5,Medium,Clear,3,7.36,8.29,3851.95,0.93,Delayed
+10906,Delhi,Udaipur,442.1,Mini Truck,13.3,Low,Clear,1,10.0,9.9,6049.1,-0.1,On Time
+10907,Kota,Udaipur,317.5,Van,13.7,Low,Clear,7,7.87,7.35,3873.53,-0.52,On Time
+10908,Ahmedabad,Bhilwara,392.0,Mini Truck,25.6,High,Hot,2,9.07,11.2,5476.02,2.13,Delayed
+10909,Jaipur,Jaipur,593.4,Truck,27.5,High,Cloudy,5,14.7,15.99,10140.01,1.29,Delayed
+10910,Delhi,Bhilwara,531.1,Mini Truck,28.6,Low,Cloudy,5,12.7,12.41,7451.16,-0.29,On Time
+10911,Udaipur,Jaipur,534.3,Mini Truck,3.8,High,Rain,1,12.05,14.41,7326.58,2.36,Delayed
+10912,Ahmedabad,Jodhpur,175.6,Van,35.2,Medium,Clear,5,4.56,4.39,2288.03,-0.17,On Time
+10913,Ahmedabad,Kota,329.1,Truck,11.0,Medium,Rain,6,8.73,10.41,5709.19,1.68,Delayed
+10914,Jaipur,Jodhpur,250.1,Van,8.1,Medium,Cloudy,5,6.11,7.0,3049.44,0.89,Delayed
+10915,Udaipur,Ajmer,247.8,Truck,27.3,High,Clear,4,6.48,8.48,4265.88,2.0,Delayed
+10916,Kota,Udaipur,400.6,Van,40.0,Medium,Rain,8,9.79,11.06,4857.94,1.27,Delayed
+10917,Ahmedabad,Jaipur,305.1,Mini Truck,31.4,Low,Rain,3,7.32,8.72,4322.73,1.4,Delayed
+10918,Jaipur,Bhilwara,222.0,Van,20.5,High,Rain,5,5.52,8.06,2669.08,2.54,Delayed
+10919,Kota,Kota,160.2,Truck,24.8,Medium,Clear,8,5.17,5.86,2905.02,0.69,On Time
+10920,Udaipur,Jaipur,306.5,Truck,6.8,Low,Hot,8,8.57,9.69,5382.8,1.12,Delayed
+10921,Ahmedabad,Bhilwara,211.0,Mini Truck,23.1,Medium,Hot,4,5.41,6.45,3000.99,1.04,Delayed
+10922,Kota,Udaipur,399.6,Truck,6.8,Medium,Clear,2,9.65,10.12,6731.26,0.47,On Time
+10923,Kota,Jodhpur,393.1,Van,49.3,High,Clear,5,9.09,10.65,4791.99,1.56,Delayed
+10924,Kota,Udaipur,283.7,Mini Truck,15.9,Medium,Clear,6,7.38,7.84,4115.24,0.46,On Time
+10925,Ahmedabad,Delhi,129.1,Truck,10.9,Low,Hot,2,3.36,3.83,2210.74,0.47,On Time
+10926,Ahmedabad,Ajmer,185.1,Truck,7.9,Medium,Cloudy,8,5.74,7.13,3347.48,1.39,Delayed
+10927,Delhi,Delhi,546.0,Van,25.9,Medium,Clear,8,12.82,13.52,6511.8,0.7,On Time
+10928,Udaipur,Kota,301.1,Van,25.0,Low,Clear,7,7.53,7.57,3687.77,0.04,On Time
+10929,Jaipur,Jaipur,441.3,Mini Truck,20.1,Medium,Clear,5,10.71,11.77,6179.57,1.06,Delayed
+10930,Kota,Kota,132.4,Truck,26.4,High,Cloudy,1,3.26,5.39,2282.31,2.13,Delayed
+10931,Delhi,Jodhpur,600.0,Van,21.5,Low,Clear,4,13.22,13.02,7100.24,-0.2,On Time
+10932,Jaipur,Bhilwara,88.1,Mini Truck,13.2,Medium,Hot,4,2.68,3.76,1268.35,1.08,Delayed
+10933,Delhi,Udaipur,303.5,Truck,4.9,Low,Cloudy,1,7.24,7.7,5139.39,0.46,On Time
+10934,Ahmedabad,Delhi,83.7,Truck,34.2,Low,Rain,3,2.49,3.44,1591.84,0.95,Delayed
+10935,Kota,Delhi,399.6,Mini Truck,25.6,Medium,Clear,8,10.32,10.18,5719.71,-0.14,On Time
+10936,Jaipur,Jodhpur,146.5,Mini Truck,27.2,Low,Clear,7,4.52,4.96,2236.2,0.44,On Time
+10937,Jaipur,Delhi,212.3,Van,28.5,High,Clear,6,5.5,7.24,2707.95,1.74,Delayed
+10938,Jaipur,Jodhpur,273.5,Truck,20.7,Low,Clear,4,7.08,7.35,4724.79,0.27,On Time
+10939,Jaipur,Kota,344.7,Truck,15.1,Medium,Clear,2,8.38,8.54,5817.83,0.16,On Time
+10940,Jaipur,Udaipur,210.3,Truck,34.3,Low,Hot,8,6.33,6.7,3796.09,0.37,On Time
+10941,Delhi,Jaipur,257.1,Mini Truck,15.6,High,Clear,6,6.79,8.67,3674.45,1.88,Delayed
+10942,Kota,Bhilwara,267.5,Van,17.9,Medium,Clear,4,6.29,6.59,3146.53,0.3,On Time
+10943,Ahmedabad,Jaipur,239.3,Truck,12.3,Medium,Clear,7,6.83,7.25,4164.38,0.42,On Time
+10944,Ahmedabad,Kota,208.5,Mini Truck,29.1,Low,Clear,3,5.17,5.56,2938.02,0.39,On Time
+10945,Ahmedabad,Bhilwara,176.3,Truck,14.5,Medium,Hot,7,5.36,6.06,3122.13,0.7,On Time
+10946,Ahmedabad,Delhi,275.0,Van,22.8,Low,Clear,2,6.09,6.0,3262.68,-0.09,On Time
+10947,Delhi,Ajmer,270.2,Truck,16.3,High,Clear,7,7.54,8.57,4721.53,1.03,Delayed
+10948,Udaipur,Kota,159.0,Van,5.9,Medium,Cloudy,6,4.39,6.01,1955.35,1.62,Delayed
+10949,Kota,Kota,209.0,Van,28.9,Medium,Clear,8,5.79,6.72,2615.42,0.93,Delayed
+10950,Jaipur,Udaipur,84.1,Truck,23.7,Medium,Clear,2,2.32,2.91,1526.97,0.59,On Time
+10951,Udaipur,Jaipur,203.0,Truck,13.7,Medium,Clear,8,6.16,6.66,3623.36,0.5,On Time
+10952,Ahmedabad,Kota,85.6,Van,20.3,Medium,Clear,1,1.96,2.11,1064.53,0.15,On Time
+10953,Udaipur,Kota,178.5,Mini Truck,29.6,Medium,Clear,5,4.87,5.52,2679.83,0.65,On Time
+10954,Kota,Delhi,129.7,Van,43.1,Medium,Clear,1,2.88,3.88,1629.18,1.0,Delayed
+10955,Jaipur,Delhi,150.5,Truck,19.0,Medium,Rain,6,4.58,5.72,2693.17,1.14,Delayed
+10956,Jaipur,Bhilwara,448.9,Truck,16.9,Medium,Clear,5,11.34,12.09,7688.38,0.75,On Time
+10957,Kota,Jodhpur,120.5,Mini Truck,18.6,Low,Rain,1,2.86,3.49,1714.92,0.63,On Time
+10958,Kota,Jodhpur,187.0,Van,12.5,High,Rain,5,4.8,7.72,2321.4,2.92,Delayed
+10959,Ahmedabad,Ajmer,273.5,Van,18.1,Medium,Clear,4,6.42,6.83,3288.8,0.41,On Time
+10960,Jaipur,Jodhpur,75.1,Van,11.8,Medium,Clear,7,2.82,3.87,981.72,1.05,Delayed
+10961,Udaipur,Udaipur,212.2,Truck,13.0,High,Clear,2,5.29,7.42,3624.87,2.13,Delayed
+10962,Delhi,Ajmer,260.4,Van,9.3,Low,Cloudy,5,6.32,6.25,3139.99,-0.07,On Time
+10963,Delhi,Bhilwara,126.0,Mini Truck,15.9,High,Cloudy,4,3.52,4.86,1891.71,1.34,Delayed
+10964,Kota,Delhi,101.2,Truck,16.6,High,Cloudy,7,3.61,5.63,1866.49,2.02,Delayed
+10965,Ahmedabad,Jodhpur,341.8,Truck,21.5,High,Clear,7,9.21,9.91,5890.61,0.7,On Time
+10966,Delhi,Jaipur,76.5,Van,6.6,High,Hot,3,2.13,4.12,967.67,1.99,Delayed
+10967,Jaipur,Delhi,185.5,Mini Truck,25.9,Medium,Clear,8,5.56,5.55,2800.55,-0.01,On Time
+10968,Kota,Udaipur,117.1,Truck,14.1,Low,Clear,1,2.9,3.45,2009.35,0.55,On Time
+10969,Udaipur,Delhi,59.1,Truck,3.0,Medium,Clear,3,1.91,2.5,1149.49,0.59,On Time
+10970,Kota,Udaipur,402.7,Van,23.9,Low,Clear,8,9.83,9.79,4959.71,-0.04,On Time
+10971,Udaipur,Udaipur,325.6,Van,12.4,Low,Clear,8,8.22,7.89,3963.9,-0.33,On Time
+10972,Kota,Udaipur,420.5,Mini Truck,42.7,Medium,Rain,6,10.42,11.21,5980.84,0.79,Delayed
+10973,Kota,Bhilwara,247.2,Van,8.0,Low,Rain,4,5.87,7.24,3010.27,1.37,Delayed
+10974,Kota,Udaipur,117.2,Mini Truck,19.8,High,Rain,3,3.14,5.36,1710.16,2.22,Delayed
+10975,Udaipur,Udaipur,174.9,Truck,8.7,High,Clear,3,4.61,7.55,2997.06,2.94,Delayed
+10976,Udaipur,Jaipur,98.6,Mini Truck,3.2,High,Cloudy,8,3.63,4.87,1560.68,1.24,Delayed
+10977,Kota,Ajmer,198.4,Mini Truck,51.0,Medium,Clear,7,5.67,6.08,3000.81,0.41,On Time
+10978,Delhi,Kota,388.9,Mini Truck,14.2,High,Clear,4,9.36,10.46,5402.31,1.1,Delayed
+10979,Ahmedabad,Ajmer,175.6,Truck,10.5,High,Clear,7,5.34,6.76,3139.05,1.42,Delayed
+10980,Ahmedabad,Udaipur,275.3,Van,24.2,Medium,Clear,2,6.1,7.51,3276.19,1.41,Delayed
+10981,Ahmedabad,Jaipur,263.8,Truck,18.9,Low,Clear,5,7.03,7.48,4573.72,0.45,On Time
+10982,Udaipur,Delhi,112.3,Van,3.2,High,Clear,6,3.42,4.24,1409.24,0.82,Delayed
+10983,Udaipur,Jaipur,113.8,Mini Truck,9.2,High,Cloudy,6,3.61,5.75,1711.7,2.14,Delayed
+10984,Delhi,Udaipur,322.3,Mini Truck,9.2,Medium,Hot,1,7.34,8.65,4434.17,1.31,Delayed
+10985,Ahmedabad,Jaipur,139.4,Mini Truck,5.8,Low,Clear,7,4.36,4.58,2080.69,0.22,On Time
+10986,Ahmedabad,Jodhpur,283.4,Mini Truck,12.4,Medium,Hot,5,7.2,7.89,4036.86,0.69,On Time
+10987,Kota,Jaipur,138.1,Mini Truck,14.6,Low,Rain,8,4.51,5.04,2104.21,0.53,On Time
+10988,Udaipur,Udaipur,154.6,Van,28.2,High,Clear,1,3.4,4.96,1884.01,1.56,Delayed
+10989,Ahmedabad,Bhilwara,280.3,Van,17.1,High,Cloudy,6,6.92,8.27,3391.56,1.35,Delayed
+10990,Delhi,Jodhpur,207.5,Mini Truck,4.9,Low,Clear,5,5.51,6.1,2995.24,0.59,On Time
+10991,Delhi,Jaipur,190.1,Truck,10.0,Medium,Rain,3,4.96,6.19,3253.98,1.23,Delayed
+10992,Ahmedabad,Kota,131.1,Truck,23.3,Low,Cloudy,2,3.41,2.63,2245.98,-0.78,On Time
+10993,Udaipur,Kota,244.6,Mini Truck,17.8,Medium,Hot,8,6.88,7.29,3520.03,0.41,On Time
+10994,Delhi,Jaipur,143.3,Van,11.8,Low,Cloudy,3,3.53,3.07,1785.63,-0.46,On Time
+10995,Kota,Bhilwara,300.7,Truck,4.5,Medium,Rain,2,7.35,8.73,5122.62,1.38,Delayed
+10996,Delhi,Delhi,132.6,Truck,46.0,Medium,Rain,8,4.52,6.12,2560.0,1.6,Delayed
+10997,Jaipur,Udaipur,189.0,Truck,53.8,Low,Clear,7,5.66,5.68,3412.01,0.02,On Time
+10998,Jaipur,Kota,303.5,Mini Truck,20.0,Medium,Clear,4,7.46,8.37,4359.98,0.91,Delayed
+10999,Udaipur,Delhi,268.5,Truck,13.8,Low,Clear,1,6.42,6.31,4555.99,-0.11,On Time
+11000,Ahmedabad,Jaipur,279.6,Truck,10.5,Medium,Clear,1,6.68,7.28,4682.87,0.6,On Time
